@@ -1,45 +1,56 @@
-<div id="game">
-		<button type="button" id="btnGo" class="fa fa-arrow-circle-o-right"></button>
-		<button type="button" id="btnReturn" class="fa fa-arrow-circle-o-left"></button>
-	
+<div id="header">
+
+	<div id="information">
+		CHRISTIAN VARISCO
+		<i><p>Inspiring Mobile Developer</p></i>
+	</div>
+	<div id="contact">
+		<i class="fa fa-envelope"> </i>   vari.chri1993@gmail.com
+	</div>
+	<div id="today">
+	</div>
 
 
-	
-	
-	<div id="sky">
 
-		
+
+
+
+
+
+
+</div>
+<div id="content">
 	
-			<div id="rocket" >
-					<div id="container">
-					<i class="fa fa-rocket"  id="missile"></i> 
-					</div>
-			</div>
+	<div id="box1">
+	
+		<div id="about">
+		</div>
+		<div id="skills">
+		</div>
+		<div id="designAppr">
+		</div>
+		<div id="timeline">
+		</div>
 		
 	</div>
 	
+	<div id="box2">
 	
+		<div id="experience">
+		</div>
+		<div id="education">
+		</div>
+		<div id="softSkills">
+		</div>
+		<div id="passion">
+		</div>
 	
-	<div id="floor">
-			
 	</div>
 	
-	
-	
-			
-			
-	<script>	
-		$('#btnGo').click( function() {
-			$('#container').addClass("rocketrotateaxis1").removeClass("rocketrotateaxis2");
-			$('#missile').addClass("rocketrotaterocket1").removeClass("rocketrotaterocket2");;
-		});
-	
-		$('#btnReturn').click( function() {
-			$("[class='rocketrotateaxis1']").addClass("rocketrotateaxis2").removeClass("rocketrotateaxis1");
-			$('#missile').addClass("rocketrotaterocket2").removeClass("rocketrotaterocket1");;
-		});
-	</script>
 
-			
-				
+
+
+
+
+
 </div>
