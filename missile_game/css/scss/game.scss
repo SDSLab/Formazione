@@ -1,0 +1,159 @@
+#game{
+
+	position:absolute;
+	
+	height:100%;
+	width:100%;
+	
+	-webkit-filter: blur(5px);
+
+}
+
+
+
+@mixin btn {
+	
+	position:absolute;
+	
+	display:inline;
+	z-index:400;
+	
+	background-color:red;
+	color:white;
+	border-radius:20px;
+	font-size:50px;
+	
+	padding:5px 10px 5px 10px;
+	margin:10px 0px 0px 0px; 
+}
+
+#btnGo{
+
+	@include btn; 
+	left:10px;
+	
+}
+
+#btnReturn{
+
+	@include btn; 
+	right:10px; 
+
+}
+
+#floor {
+	
+	position:fixed;
+	
+	bottom:0px;
+	z-index:300;
+	
+	width:100%;
+	height:43px;
+	
+	background-image:url('../img/floor.png');
+	background-repeat:repeat-x;
+	
+}
+
+#sky {
+	
+	position:fixed;
+	
+	z-index:200;
+
+	width:100%;
+	height:100%;
+	
+	padding:0px 50px 25px 50px;
+	box-sizing: border-box;
+	
+	background-image:url('../img/cloud.jpg');
+	background-repeat:repeat-x;
+		
+}
+
+#rocket{
+
+	position:relative;
+	
+	height:100%;
+	width:90%;
+	
+	margin:0px auto 0px auto;
+	
+}	
+
+
+#container{
+
+	position:absolute;
+	
+	
+	bottom:0px;
+	
+	height:100px;
+	width:100%;
+
+	
+	-webkit-transform-origin:50% 50%;
+	
+
+}
+
+#missile{
+	
+	position:fixed;
+	z-index:200;	
+	
+	color:red;
+	font-size:80px;	
+	
+	margin:10px 10px 10px 10px;
+	
+	-webkit-transform: rotate(-45deg);	
+	
+	
+}
+
+
+
+
+
+/*CLASS FOR ANIMATION*/
+	
+.rocketrotateaxis1 {
+	
+	-webkit-animation:rotateaxis1 3s linear forwards;	
+			
+}
+
+.rocketrotaterocket1 {
+
+	-webkit-animation:rotaterocket1 3s linear forwards;	
+
+}
+
+.rocketrotateaxis2 {
+	
+	-webkit-animation:rotateaxis2 3s linear forwards;	
+			
+}
+
+.rocketrotaterocket2 {
+
+	-webkit-animation:rotaterocket2	 3s linear forwards;	
+
+}
+
+.blurAnimationStart{
+
+	-webkit-animation:blurAnimation 2s linear forwards; 
+
+
+}
+
+
+	
+	
+
