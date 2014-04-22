@@ -4,8 +4,8 @@
 		<div id="main">
 			
 			
+			<?php include 'header.php'; ?>
 			<?php include 'container.php'; ?>
-		
 		
 		
 		</div>

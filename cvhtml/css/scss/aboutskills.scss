@@ -1,0 +1,119 @@
+$colorblue: #14B4F0;
+$colorgreen: #96CA4E;
+$colorred: #DC2D68;
+$postext:center;
+
+#about{
+	
+	position:absolute;
+
+	width:50%;
+	height:30%;
+	box-sizing:border-box;
+	display:inline;
+	
+	
+	left:0%;
+	
+	padding:10px 10px 10px 10px;
+		
+	p{
+	
+		margin:0;
+		font-size:12px;
+		
+	
+	}
+}
+
+#skills{
+	
+	position:absolute;
+
+	width:50%;
+	height:30%;
+	box-sizing:border-box;
+	display:inline;
+	
+	
+	left:0%;
+	top:30%;
+	
+	padding:10px 10px 10px 10px;
+		
+	p{
+	
+		margin:0;
+		display:inline;
+		font-size:12px;
+		
+	
+	}
+	
+	ul, li{
+	
+		list-style-type: none;
+		font-size:12px;
+		margin:7px 0 0 5px;
+		padding:0;
+		
+	
+	
+	}
+	
+	i{	
+	
+		font-size:12px;
+		margin:0 10px 0 0;
+		display:inline;
+		
+	}
+}
+
+#listSkills1{
+
+	position:absolute;
+
+	width:50%;
+	height:100%;
+	box-sizing:border-box;
+	display:inline;
+	
+	
+	left:0%;
+	
+	
+	padding:20px 0 0 0 ;
+	
+}
+
+#listSkills2{
+
+	position:absolute;
+
+	width:50%;
+	height:100%;
+	box-sizing:border-box;
+	display:inline;
+	
+	
+	left:50%;
+	
+	padding:20px 0 0 0 ;
+	
+}
+
+.titleBlue{
+	
+	font-size:18px;
+	font-weight:bold;
+	color:$colorblue;
+
+}
+.titleGreen{
+	
+	font-size:18px;
+	font-weight:bold;
+	color:$colorgreen;
+
+}

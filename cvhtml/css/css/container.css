@@ -1,0 +1,14 @@
+#container {
+  position: relative;
+  height: 80%;
+  width: 100%; }
+
+#box1 {
+  position: relative;
+  height: 60%;
+  width: 100%; }
+
+#box2 {
+  position: relative;
+  height: 40%;
+  width: 100%; }
