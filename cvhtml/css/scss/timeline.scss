@@ -2,6 +2,8 @@ $colorblue: #14B4F0;
 $colorgreen: #96CA4E;
 $colorred: #DC2D68;
 $postext:center;
+$positionleftup:0%;
+$positionleftdown:10%;
 
 #timeline{
 	
@@ -16,96 +18,134 @@ $postext:center;
 	left:0%;
 	top:60%;
 	
-	padding:30px 10px 10px 10px;
+	margin:30px 30px 30px 30px;
 	
 	
-	font-size:12px;
+	font-size:10px;
 		
-	p{
-	
-		margin:0;
-		font-size:12px;
-		
-	
-	}
+
 }
 
-#upSide{
-	
-	position:absolute;
+@for $i from 1 through 4 {
+  #itemUp#{$i} {
+						left:$positionleftup;
+						$positionleftup:$positionleftup+20%;
+						
+						
 
-	width:95%;
-	height:40%;
-	box-sizing:border-box;
-	display:inline;
-	
-	border-bottom: 2px solid $colorred;
-	
-	
-	
-	margin:0 auto 0 auto;
-		
-	p{
-	
-		margin:0;
-		font-size:12px;
-		
-	
-	}
+						
+					}
 }
 
-#downSide{
-	
-	position:absolute;
 
-	width:95%;
-	height:40%;
-	box-sizing:border-box;
-	display:inline;
-	
-	
-	
-	top:50%;
-	
-	margin:0 auto 0 auto;
-		
-	p{
-	
-		margin:0;
-		font-size:12px;
-		
-	
-	}
-}
 
 
 #itemUp1,#itemUp2,#itemUp3,#itemUp4{
 	
 	position:absolute;
-
-	width:15%;
-	height:100%;
-	box-sizing:border-box;
-	display:inline;
 	
-	left:0%;
+	height:40%;
+	width:18%;
 	
+	
+	border-bottom:2px solid $colorred;
+	
+	font-size:9px;
 	text-align:center;
+	
+	p{
+		position:absolute;
+		margin:0;
+		font-size:9px;
+		left:10%;
 		
+	
+	}
+	i{
+		position:absolute;
+		margin:-6px 0 0 0 ;
+		font-size:8px;
+		color:$colorred;
+		text-align:center;
+		left:40%;
+		top:40%;
+	}
 
 }
 
-#circleTime{
+@for $i from 1 through 4 {
+  #itemDown#{$i} {		
+						top:40%;
+						left:$positionleftdown;
+						$positionleftdown:$positionleftdown+20%;
+						
+					}
+}
+
+#itemDown1,#itemDown2,#itemDown3,#itemDown4{
+
+	position:absolute;
+	
+	height:40%;
+	width:18%;
+	
+	border-top:2px solid $colorred;
+	
+
+	p{
+		position:absolute;
+		margin:0;
+		font-size:9px;
+		text-align:center;
+		top:80%;
+		left:10%;
+	
+	}
+	i{
+		position:absolute;
+		margin:-6px 0 0 0 ;
+		font-size:8px;
+		color:$colorred;
+		text-align:center;
+		left:40%;
+		top:70%;
+	
+	}
+
+
+
+}
+
+
+@for $i from 1 through 4 {
+  #circleTime#{$i} { top:73%;
+  
+					
+  
+  
+					}
+}
+@for $i from 5 through 8 {
+  #circleTime#{$i} { top:-30%;
+					
+					
+  
+  
+  }
+}
+
+
+#circleTime1,#circleTime2,#circleTime3,#circleTime4,#circleTime5,#circleTime6,#circleTime7,#circleTime8{
 	
 	position:absolute;
 
 	height: 30px;
 	width: 30px;
 	z-index:100;
-	display:inline;
 	
-	left:30%;
-	top:80%;
+	
+	left:28%;
+
 	
 	border: 2px solid $colorred;
 	border-radius: 18px;
@@ -121,9 +161,16 @@ $postext:center;
 		margin:0;
 		left:0%;
 		top:20%;
+		font-size:12px;
+		
 	
+	}
 	
 	}
 
 
-}
+
+
+
+
+

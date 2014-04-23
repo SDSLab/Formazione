@@ -1,0 +1,198 @@
+$colorblue: #14B4F0;
+$colorgreen: #96CA4E;
+$colorred: #DC2D68;
+$postext:center;
+
+#experience{
+
+
+	position:absolute;
+
+	width:50%;
+	height:30%;
+	box-sizing:border-box;
+	display:inline;
+	
+	
+	left:0%;
+
+	
+	padding:10px 10px 10px 10px;
+		
+	p{
+	
+		margin:0;
+		display:inline;
+		font-size:12px;
+		
+	
+	}
+	
+	ul, li{
+	
+		list-style-type: none;
+		font-size:12px;
+		margin:5px 0 0 5px;
+		padding:0;
+		
+	
+	
+	}
+	
+	i{	
+	
+		font-size:12px;
+		margin:0 10px 0 0;
+		display:inline;
+		
+	}
+}
+
+#education{
+
+	position:absolute;
+
+	width:50%;
+	height:30%;
+	box-sizing:border-box;
+	display:inline;
+	
+	
+	left:55%;
+
+	padding:10px 10px 10px 10px;
+		
+	p{
+		display:inline;
+		margin:0;
+		font-size:12px;
+		
+	
+	}
+	
+	ul{
+	
+		list-style-type: none;
+		font-size:12px;
+		margin:12px 0 0 5px;
+		padding:0;
+		
+	
+	
+	}
+	
+	li{
+	
+		list-style-type: none;
+		font-size:12px;
+		margin:0px 0 0 5px;
+		padding:0;
+		
+	
+	
+	}
+	
+	i{	
+	
+		font-size:12px;
+		margin:0 10px 0 0;
+		display:inline;
+		
+	}
+
+
+
+
+}
+
+#textEducation{
+
+	position:absolute;
+
+	width:100%;
+	height:100%;
+	box-sizing:border-box;
+	display:inline;
+	
+	
+	left:0%;
+	
+	
+	padding:20px 0 0 0;
+	
+}
+
+#softSkills{
+	
+	position:absolute;
+
+	width:50%;
+	height:30%;
+	box-sizing:border-box;
+	display:inline;
+	
+	
+	left:0%;
+	top:55%;
+
+
+	padding:10px 10px 10px 10px;
+		
+	p{
+	
+		margin:0;
+		display:inline;
+		font-size:12px;
+		
+	
+	}
+
+	i{	
+	
+		font-size:12px;
+		margin:0 10px 0 0;
+		display:inline;
+		
+	}
+
+
+
+}
+
+#passion{
+	
+	position:absolute;
+
+	width:50%;
+	height:30%;
+	box-sizing:border-box;
+	display:inline;
+	
+	line-height:12px;
+	left:55%;
+	top:55%;
+
+
+	padding:10px 10px 10px 10px;
+		
+	p{
+		line-height:16px;
+		margin:10px 0 0 0;
+		display:inline;
+		font-size:12px;
+		
+	
+	}
+
+	i{	
+	
+		font-size:16px;
+		margin:10px 0 0 10px;
+		display:inline;
+		
+		
+	}
+
+
+
+}

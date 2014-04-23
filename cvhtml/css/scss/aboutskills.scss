@@ -108,6 +108,7 @@ $postext:center;
 	font-size:18px;
 	font-weight:bold;
 	color:$colorblue;
+	margin:0 0 10px 0;
 
 }
 .titleGreen{
@@ -115,5 +116,18 @@ $postext:center;
 	font-size:18px;
 	font-weight:bold;
 	color:$colorgreen;
+	margin:0 0 10px 0;
+
+}
+
+.colorTextRed{
+	
+	color:$colorred;
+
+}
+
+.colorTextBlue{
+	
+	color:$colorblue;
 
 }

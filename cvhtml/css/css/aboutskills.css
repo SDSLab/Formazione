@@ -54,9 +54,17 @@
 .titleBlue {
   font-size: 18px;
   font-weight: bold;
-  color: #14b4f0; }
+  color: #14b4f0;
+  margin: 0 0 10px 0; }
 
 .titleGreen {
   font-size: 18px;
   font-weight: bold;
-  color: #96ca4e; }
+  color: #96ca4e;
+  margin: 0 0 10px 0; }
+
+.colorTextRed {
+  color: #dc2d68; }
+
+.colorTextBlue {
+  color: #14b4f0; }
