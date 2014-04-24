@@ -11,7 +11,7 @@ body {
 
 #main {
   width: 11.5cm;
-  height: 1800px;
+  height: 2000px;
   padding: 30px 30px 30px 30px;
   margin: 10px auto 10px auto;
   background-color: white; }
@@ -139,7 +139,8 @@ body {
   width: 28%;
   height: 20%; }
   #itemDown1 p, #itemDown2 p, #itemDown3 p, #itemDown4 p {
-    width: 85%; }
+    width: 90%;
+    left: 3%; }
 
 #circleTime1 p, #circleTime2 p, #circleTime3 p, #circleTime4 p, #circleTime5 p, #circleTime6 p, #circleTime7 p, #circleTime8 p {
   left: 3%; }
@@ -158,21 +159,21 @@ body {
   height: 15%;
   display: block;
   left: 0%;
-  top: 35%; }
+  top: 33%; }
 
 #softSkills {
-  width: 50%;
+  width: 100%;
   height: 15%;
   display: block;
   left: 0%;
-  top: 70%; }
+  top: 65%; }
 
 #passion {
-  width: 50%;
+  width: 100%;
   height: 15%;
   display: block;
-  left: 50%;
-  top: 70%; }
+  left: -5%;
+  top: 80%; }
   #passion i {
     margin: 10px 0 0 20px;
     display: inline;

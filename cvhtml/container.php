@@ -127,7 +127,7 @@
 	<div id="box2">
 	
 		<div id="experience">
-			<i class="fa fa-star-o titleGreen"></i><p class="titleGreen"> EXPERIENCE</p>
+			<i class="fa fa-star-o titleGreen"></i><p class="title colorTextGreen"> EXPERIENCE</p>
 				<div id="listExp1">
 					<ul>
 					<li>Design Director</li>
@@ -150,24 +150,24 @@
 				</div>
 		</div>
 		<div id="education">
-			<i class="fa fa-star-o titleBlue"></i><p class="titleBlue"> EDUCATION</p>
+			<i class="fa fa-star-o titleBlue"></i><p class="title colorTextBlue"> EDUCATION</p>
 				<div id="textEducation">
 					<ul>
-					<li><p class="colorTextBlue">2011 EXEC EDU</li>
+					<li class="colorTextBlue">2011 EXEC EDU</li>
 					<li>Excellence in Management Programme</li>
 					</ul>
 					<ul>
-					<li><p class="colorTextBlue">2008 "George Enescu" Art & Design University</li>
+					<li class="colorTextBlue">2008 "George Enescu" Art & Design University</li>
 					<li>BA in Graphic Design and Visual Communication</li>
 					</ul>
 					<ul>
-					<li><p class="colorTextBlue">2003 "Unirea" National College</li>
+					<li class="colorTextBlue">2003 "Unirea" National College</li>
 					<li>Computer Operator high school diploma</li>
 					</ul>
 				</div>
 		</div>
 		<div id="softSkills">
-			<i class="fa fa-rocket  iconColorBlue"></i><p class="titleBlue linepos">SOFT SKILLS</p>
+			<i class="fa fa-rocket  iconColorBlue"></i><p class="title colorTextBlue linepos">SOFT SKILLS</p>
 			<p class="marginpar">Proactive, entrepreneur attitude, problem solver, emotional intelligence,left & right brain user, good organizer.</p>
 			
 		</div>

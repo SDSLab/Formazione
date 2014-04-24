@@ -14,7 +14,7 @@ $postext:center;
 	
 	
 	left:0%;
-	font-size:12px;
+	font-size:11px;
 	
 	
 }
@@ -31,7 +31,7 @@ $postext:center;
 	
 	left:0%;
 	top:28%;
-	font-size:12px;
+	font-size:11px;
 	
 		
 	p, i{
@@ -67,7 +67,7 @@ $postext:center;
 		
 		
 		list-style-type: none;
-		font-size:12px;
+		font-size:11px;
 		margin:10px 0 0 0;
 		
 		
@@ -96,7 +96,7 @@ $postext:center;
 		
 		
 		list-style-type: none;
-		font-size:12px;
+		font-size:11px;
 		margin:10px 0 0 0;
 		
 		
@@ -144,11 +144,32 @@ $postext:center;
 .colorTextRed{
 	
 	color:$colorred;
+	
 
 }
 
 .colorTextBlue{
 	
 	color:$colorblue;
+	
+
+}
+
+.colorTextGreen{
+	
+	color:$colorgreen;
+	
+
+}
+
+.title{
+	
+	top:-1%;
+	position:absolute;
+	margin:0;
+	font-size:15px;
+	font-weight:bold;
+	display:inline;
+
 
 }

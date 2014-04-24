@@ -32,7 +32,8 @@
     position: absolute;
     margin: 0;
     font-size: 9px;
-    text-align: center; }
+    text-align: center;
+    left: -7%; }
   #itemUp1 i, #itemUp2 i, #itemUp3 i, #itemUp4 i {
     position: absolute;
     margin: -6px 0 0 0;
@@ -70,7 +71,7 @@
     font-size: 9px;
     text-align: center;
     top: 80%;
-    left: -2%; }
+    left: -7%; }
   #itemDown1 i, #itemDown2 i, #itemDown3 i, #itemDown4 i {
     position: absolute;
     margin: -6px 0 0 0;

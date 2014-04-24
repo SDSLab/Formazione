@@ -5,7 +5,7 @@
   box-sizing: border-box;
   display: inline;
   left: 0%;
-  font-size: 12px; }
+  font-size: 11px; }
 
 #skills {
   position: absolute;
@@ -15,7 +15,7 @@
   display: inline;
   left: 0%;
   top: 28%;
-  font-size: 12px; }
+  font-size: 11px; }
   #skills p, #skills i {
     display: inline; }
 
@@ -29,7 +29,7 @@
   padding: 30px 0 0 20px; }
   #listSkills1 ul, #listSkills1 li {
     list-style-type: none;
-    font-size: 12px;
+    font-size: 11px;
     margin: 10px 0 0 0; }
 
 #listSkills2 {
@@ -42,7 +42,7 @@
   padding: 30px 0 0 0; }
   #listSkills2 ul, #listSkills2 li {
     list-style-type: none;
-    font-size: 12px;
+    font-size: 11px;
     margin: 10px 0 0 0; }
 
 .titleBlue {
@@ -73,3 +73,14 @@
 
 .colorTextBlue {
   color: #14b4f0; }
+
+.colorTextGreen {
+  color: #96ca4e; }
+
+.title {
+  top: -1%;
+  position: absolute;
+  margin: 0;
+  font-size: 15px;
+  font-weight: bold;
+  display: inline; }
