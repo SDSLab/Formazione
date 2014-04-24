@@ -4,8 +4,7 @@
   height: 60%;
   box-sizing: border-box;
   display: inline;
-  left: 50%;
-  padding: 10px 10px 10px 10px; }
+  left: 50%; }
   #designAppr p {
     margin: 0;
     font-size: 12px;
@@ -17,14 +16,14 @@
   height: 100%;
   box-sizing: border-box;
   display: inline;
-  padding: 20px 0 0 0; }
+  padding: 30px 0 0 0; }
 
 #circleRed {
   position: absolute;
-  width: 130px;
-  height: 130px;
+  width: 150px;
+  height: 150px;
   display: inline;
-  left: 20%;
+  left: 14%;
   background-color: #dc2d68;
   border-radius: 50%;
   font-size: 12px;
@@ -38,10 +37,10 @@
 
 #circleBlue {
   position: absolute;
-  width: 130px;
-  height: 130px;
+  width: 150px;
+  height: 150px;
   display: inline;
-  left: 45%;
+  left: 46%;
   background-color: #14b4f0;
   border-radius: 50%;
   font-size: 12px;
@@ -56,11 +55,11 @@
 
 #circleGreen {
   position: absolute;
-  width: 130px;
-  height: 130px;
+  width: 150px;
+  height: 150px;
   display: inline;
-  left: 32%;
-  top: 40%;
+  left: 30%;
+  top: 46%;
   background-color: #96ca4e;
   border-radius: 50%;
   font-size: 12px;

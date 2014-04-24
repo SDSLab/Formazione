@@ -1,4 +1,9 @@
-
+$colorblue: #14B4F0;
+$colorgreen: #96CA4E;
+$colorred: #DC2D68;
+$postext:center;
+$fontp:18px;
+$positionleftdown:0%;
 
 body {
 	
@@ -12,15 +17,215 @@ body {
 
 }
 
+#header{
+
+	position:relative;
+	
+	height:15%;
+	width:100%;
+	
+}
+
+
 #main {
 	
-	width: 100%;
-	height: 29.7cm;
-	box-sizing:border-box;
+	width: 11.5cm;
+	height:2000px;
+	
 	
 	padding:30px 30px 30px 30px;
 	margin:10px auto 10px auto;
 	
 	background-color:white;
+
+}
+
+#box1{ 
+
+	height: 70%;
+
+}
+
+#box2{
+
+height:30%;
+
+}
+
+#container{
+
+	height:80%;
+	
+}
+
+#information{
+
+	width:220px;
+	height:53px;
+	
+	
+	left:0%;
+
+}
+
+#contact{
+
+	
+	
+	width:120px;
+	height:30px;
+	
+	display:block;
+	padding:0;
+	left:70%;
+	
+
+	
+	i{
+		
+		
+		margin:0 5px 0 2px ;
+						
+	
+	}
+
+}
+
+#social{
+		
+	
+
+	width:100px;
+	
+	display:inline;
+	
+	
+	left:70%;
+	top:8%;
+	
+	margin:0;
+		
+	i{
+	
+		margin:0 0 0 10px;
+	
+	}
+			
+}
+
+#today{
+		
+	
+
+	width:100%;
+	height:70%;
+	
+	
+	display:inline;
+	
+	
+	
+	top:30%;
+				
+}
+
+#sun{
+	
+	width:50%;
+	height:50%;
+
+
+}
+
+#heart{
+
+	width:50%;
+	height:50%;
+	
+	left:50%;
+	
+}
+
+#world{
+	
+	width:50%;
+	height:50%;
+	left:0%;
+	top:50%;
+
+}
+
+#house{
+
+	width:50%;
+	height:50%;
+	
+	left:50%;
+	top:50%;
+	
+}
+
+#about{
+
+	width:100%;
+	height:15%;
+	display:block;
+	
+	
+}
+
+#skills{
+	
+	width:100%;
+	height:20%;
+	display:block;
+	top:15%;
+}
+
+#designAppr{
+
+	width:100%;
+	height:25%;
+	display:block;
+	
+	left:0%;
+	top:35%;
+	
+}
+
+#timeline{
+
+	width:100%;
+	height:30%;
+	
+	top:65%;
+	
+	margin:0;
+	
+
+}
+
+#itemUp1,#itemUp2,#itemUp3,#itemUp4{
+
+	width:25%;
+	height:20%;
+
+
+}
+
+@for $i from 1 through 4 {
+  #itemDown#{$i} {		
+						top:40%;
+						left:$positionleftdown;
+						$positionleftdown:$positionleftdown+22%;
+						
+					}
+
+#itemDown1,#itemDown2,#itemDown3,#itemDown4{
+	
+	width:25%;
+	height:20%;
+	
+
 
 }

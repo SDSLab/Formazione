@@ -6,27 +6,27 @@
 			<p class="titleBlue"> ABOUT ME </p>
 			<p> In love with design since 2002. I don't just make things that look shiny.
 				I make things that are: beautiful, easy to use, persuasive, relevant to the
-				costumer and fit in the business enviroment.</p><br>
+				costumer and fit in the business enviroment.</p>
 			<p>I love to integrate each ingredient into a great final product.</p>
 		</div>
 		<div id="skills">
-			<i class="fa fa-lightbulb-o titleGreen" ></i><p class="titleGreen"> SKILLS </p>
+			<i class="fa fa-lightbulb-o iconColorGreen" ></i><p class="titleGreen"> SKILLS </p>
 				<div id="listSkills1">
-					<ul>
-					<li><i class="fa fa-pencil-square-o"></i>User interface</li>
-					<li><i class="fa fa-desktop"></i>Web & App design</li>
-					<li><i class="fa fa-check-circle-o"></i>User experience</li>
-					<li><i class="fa fa-magic"></i>Composition</li>
-					<li><i class="fa fa-star-o"></i>Identity design</li>
+					<ul class="fa-ul">
+					<li><i class="fa-li fa fa-pencil-square-o"></i>User interface</li>
+					<li><i class="fa-li fa fa-desktop"></i>Web & App design</li>
+					<li><i class="fa-li fa fa-check-circle-o"></i>User experience</li>
+					<li><i class="fa-li fa fa-magic"></i>Composition</li>
+					<li><i class="fa-li fa fa-star-o"></i>Identity design</li>
 					</ul>
 				</div>
 				<div id="listSkills2">
-					<ul>
-					<li><i class="fa fa-users"></i>Creative Direction</li>
-					<li><i class="fa fa-clock-o"></i>Managing projects</li>
-					<li><i class="fa fa-eye"></i>Color theory</li>
-					<li><i class="fa fa-bar-chart-o"></i>Online Marketing</li>
-					<li><i class="fa fa-file-o"></i>Copywriting</li>
+					<ul class="fa-ul">
+					<li><i class="fa-li fa fa-users"></i>Creative Direction</li>
+					<li><i class="fa-li fa fa-clock-o"></i>Managing projects</li>
+					<li><i class="fa-li fa fa-eye"></i>Color theory</li>
+					<li><i class="fa-li fa fa-bar-chart-o"></i>Online Marketing</li>
+					<li><i class="fa-li fa fa-file-o"></i>Copywriting</li>
 					</ul>
 				</div>
 				
@@ -64,7 +64,7 @@
 			
 			<div id="itemUp2">
 			
-				<p>born in Romania</p>
+				<p>first payment client</p>
 				<i class="fa fa-square"></i>
 				<div id="circleTime2">
 					<p>2004</p>
@@ -128,7 +128,7 @@
 	
 		<div id="experience">
 			<i class="fa fa-star-o titleGreen"></i><p class="titleGreen"> EXPERIENCE</p>
-				<div id="listSkills1">
+				<div id="listExp1">
 					<ul>
 					<li>Design Director</li>
 					<li>Creative Director</li>
@@ -138,7 +138,7 @@
 					<li>Web Designer</li>
 					</ul>
 				</div>
-				<div id="listSkills2">
+				<div id="listExp2">
 					<ul>
 					<li><p class="colorTextRed">GI Real Estate</p> (2011-2013)</li>
 					<li><p class="colorTextRed">PlayTheBalls</p> (2008-2011)</li>
@@ -167,18 +167,25 @@
 				</div>
 		</div>
 		<div id="softSkills">
-			<i class="fa fa-rocket  titleBlue"></i><p class="titleBlue">SOFT SKILLS</p><br>
-			<p>Proactive, entrepreneur attitude, problem solver, emotional intelligence,left & right brain user, good organizer.</p>
+			<i class="fa fa-rocket  iconColorBlue"></i><p class="titleBlue linepos">SOFT SKILLS</p>
+			<p class="marginpar">Proactive, entrepreneur attitude, problem solver, emotional intelligence,left & right brain user, good organizer.</p>
 			
 		</div>
 		<div id="passion">
-			<i class="fa fa-heart-o  titleGreen"></i><p class="titleGreen">PASSION</p><br>
+			<i class="fa fa-heart-o  titleGreen"></i><p class="titleGreen">PASSION</p>
 			<p><i class="fa fa-plane"></i><i class="fa fa-pencil"></i>
 			<i class="fa fa-mobile"></i>  <i class="fa fa-picture-o"></i>
 			<i class="fa fa-globe"></i> <i class="fa fa-film"></i>
 			<i class="fa fa-anchor"></i><i class="fa fa-music"></i></p>
 		</div>
-	
+		
+		<div id="footer">
+			
+			<p>Satisfaction guaranteed! Or you get a free trip around the world <i class="fa fa-globe"></i> </p>
+			
+				
+		</div>
+		
 	</div>
 	
 

@@ -1,24 +1,47 @@
 #experience {
   position: absolute;
   width: 50%;
-  height: 30%;
+  height: 50%;
   box-sizing: border-box;
   display: inline;
   left: 0%;
-  padding: 10px 10px 10px 10px; }
+  font-size: 12px; }
   #experience p {
-    margin: 0;
-    display: inline;
-    font-size: 12px; }
+    display: inline; }
   #experience ul, #experience li {
     list-style-type: none;
-    font-size: 12px;
     margin: 5px 0 0 5px;
     padding: 0; }
   #experience i {
-    font-size: 12px;
+    font-size: 18px;
     margin: 0 10px 0 0;
     display: inline; }
+
+#listExp1 {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  box-sizing: border-box;
+  display: inline;
+  left: 0%;
+  padding: 30px 0 0 0; }
+  #listExp1 ul, #listExp1 li {
+    list-style-type: none;
+    font-size: 12px;
+    margin: 3px 0 0 0; }
+
+#listExp2 {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  box-sizing: border-box;
+  display: inline;
+  left: 50%;
+  padding: 30px 0 0 0; }
+  #listExp2 ul, #listExp2 li {
+    list-style-type: none;
+    font-size: 12px;
+    margin: 3px 0 0 0; }
 
 #education {
   position: absolute;
@@ -26,12 +49,10 @@
   height: 30%;
   box-sizing: border-box;
   display: inline;
-  left: 55%;
-  padding: 10px 10px 10px 10px; }
+  left: 55%; }
   #education p {
     display: inline;
-    margin: 0;
-    font-size: 12px; }
+    margin: 0; }
   #education ul {
     list-style-type: none;
     font-size: 12px;
@@ -43,7 +64,7 @@
     margin: 0px 0 0 5px;
     padding: 0; }
   #education i {
-    font-size: 12px;
+    font-size: 18px;
     margin: 0 10px 0 0;
     display: inline; }
 
@@ -63,14 +84,9 @@
   box-sizing: border-box;
   display: inline;
   left: 0%;
-  top: 55%;
-  padding: 10px 10px 10px 10px; }
-  #softSkills p {
-    margin: 0;
-    display: inline;
-    font-size: 12px; }
+  top: 57%;
+  font-size: 12px; }
   #softSkills i {
-    font-size: 12px;
     margin: 0 10px 0 0;
     display: inline; }
 
@@ -82,14 +98,26 @@
   display: inline;
   line-height: 12px;
   left: 55%;
-  top: 55%;
-  padding: 10px 10px 10px 10px; }
+  top: 57%; }
   #passion p {
-    line-height: 16px;
-    margin: 10px 0 0 0;
-    display: inline;
-    font-size: 12px; }
+    margin: 20px 0 0 10px; }
   #passion i {
-    font-size: 16px;
-    margin: 10px 0 0 10px;
-    display: inline; }
+    margin: 10px 0 0 15px;
+    display: inline;
+    font-size: 20px; }
+
+#footer {
+  position: absolute;
+  width: 100%;
+  height: 5%;
+  top: 87%;
+  font-size: 12px;
+  text-align: center;
+  color: #dc2d68; }
+
+.marginpar {
+  margin: 10px 0px 0px 0px;
+  display: block; }
+
+.linepos {
+  display: inline; }
