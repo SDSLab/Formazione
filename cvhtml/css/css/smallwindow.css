@@ -1,43 +1,182 @@
-/*
-Syntax error: Invalid CSS after "}": expected "}", was ""
-        on line 231 of css/scss/smallwindow.scss
+body {
+  padding: 0px;
+  margin: 0px;
+  background-image: url("../img/bg.png");
+  font-family: 'Open Sans', sans-serif; }
 
-226: 	width:25%;
-227: 	height:20%;
-228: 	
-229: 
-230: 
-231: }
+#header {
+  position: relative;
+  height: 15%;
+  width: 100%; }
 
-Backtrace:
-css/scss/smallwindow.scss:231
-C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.4/lib/sass/scss/parser.rb:1306:in `expected'
-C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.4/lib/sass/scss/parser.rb:1242:in `expected'
-C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.4/lib/sass/scss/parser.rb:1237:in `tok!'
-C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.4/lib/sass/scss/parser.rb:637:in `block'
-C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.4/lib/sass/scss/parser.rb:283:in `for_directive'
-C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.4/lib/sass/scss/parser.rb:216:in `special_directive'
-C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.4/lib/sass/scss/parser.rb:188:in `directive'
-C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.4/lib/sass/scss/parser.rb:654:in `block_child'
-C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.4/lib/sass/scss/parser.rb:647:in `block_contents'
-C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.4/lib/sass/scss/parser.rb:116:in `stylesheet'
-C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.4/lib/sass/scss/parser.rb:41:in `parse'
-C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.4/lib/sass/engine.rb:409:in `_to_tree'
-C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.4/lib/sass/engine.rb:274:in `render'
-C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.4/lib/sass/plugin/compiler.rb:414:in `update_stylesheet'
-C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.4/lib/sass/plugin/compiler.rb:189:in `block in update_stylesheets'
-C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.4/lib/sass/plugin/compiler.rb:186:in `each'
-C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.4/lib/sass/plugin/compiler.rb:186:in `update_stylesheets'
-C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.4/lib/sass/plugin/compiler.rb:393:in `on_file_changed'
-C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.4/lib/sass/plugin/compiler.rb:248:in `block in watch'
-C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.4/vendor/listen/lib/listen/listener.rb:252:in `call'
-C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.4/vendor/listen/lib/listen/listener.rb:252:in `on_change'
-C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.4/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
-C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.4/vendor/listen/lib/listen/adapters/polling.rb:48:in `call'
-C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.4/vendor/listen/lib/listen/adapters/polling.rb:48:in `poll_changed_directories'
-C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.3.4/vendor/listen/lib/listen/adapter.rb:297:in `block in start_poller'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Syntax error: Invalid CSS after \"}\": expected \"}\", was \"\"\A         on line 231 of css/scss/smallwindow.scss\A \A 226: 	width:25%;\A 227: 	height:20%;\A 228: 	\A 229: \A 230: \A 231: }"; }
+#main {
+  width: 11.5cm;
+  height: 1800px;
+  padding: 30px 30px 30px 30px;
+  margin: 10px auto 10px auto;
+  background-color: white; }
+
+#box1 {
+  top: 2%;
+  height: 70%; }
+
+#box2 {
+  height: 30%; }
+
+#container {
+  height: 80%; }
+
+#information {
+  width: 220px;
+  height: 53px;
+  left: 0%; }
+
+#contact {
+  width: 120px;
+  height: 30px;
+  display: block;
+  padding: 0;
+  left: 70%; }
+  #contact i {
+    margin: 0 5px 0 2px; }
+
+#social {
+  width: 100px;
+  display: inline;
+  left: 70%;
+  top: 8%;
+  margin: 0; }
+  #social i {
+    margin: 0 0 0 10px; }
+
+#today {
+  width: 100%;
+  height: 70%;
+  display: inline;
+  top: 30%; }
+
+#sun {
+  width: 50%;
+  height: 50%; }
+
+#heart {
+  width: 50%;
+  height: 50%;
+  left: 50%; }
+
+#world {
+  width: 50%;
+  height: 50%;
+  left: 0%;
+  top: 50%; }
+
+#house {
+  width: 50%;
+  height: 50%;
+  left: 50%;
+  top: 50%; }
+
+#about {
+  width: 100%;
+  height: 15%;
+  display: block; }
+
+#skills {
+  width: 100%;
+  height: 20%;
+  display: block;
+  top: 15%; }
+
+#designAppr {
+  width: 100%;
+  height: 25%;
+  display: block;
+  left: 0%;
+  top: 35%; }
+
+#timeline {
+  width: 435px;
+  height: 300px;
+  left: -30px;
+  top: 70%;
+  margin: 0 0 0 0; }
+
+#itemUp1 {
+  left: 0%; }
+
+#itemUp2 {
+  left: 24%; }
+
+#itemUp3 {
+  left: 48%; }
+
+#itemUp4 {
+  left: 72%; }
+
+#itemUp1, #itemUp2, #itemUp3, #itemUp4 {
+  width: 28%;
+  height: 20%; }
+  #itemUp1 p, #itemUp2 p, #itemUp3 p, #itemUp4 p {
+    width: 95%; }
+
+#itemDown1 {
+  top: 40%;
+  left: 0%; }
+
+#itemDown2 {
+  top: 40%;
+  left: 24%; }
+
+#itemDown3 {
+  top: 40%;
+  left: 48%; }
+
+#itemDown4 {
+  top: 40%;
+  left: 72%; }
+
+#itemDown1, #itemDown2, #itemDown3, #itemDown4 {
+  width: 28%;
+  height: 20%; }
+  #itemDown1 p, #itemDown2 p, #itemDown3 p, #itemDown4 p {
+    width: 85%; }
+
+#circleTime1 p, #circleTime2 p, #circleTime3 p, #circleTime4 p, #circleTime5 p, #circleTime6 p, #circleTime7 p, #circleTime8 p {
+  left: 3%; }
+
+#box2 {
+  top: -3%;
+  height: 40%; }
+
+#experience {
+  width: 100%;
+  height: 15%;
+  display: block; }
+
+#education {
+  width: 100%;
+  height: 15%;
+  display: block;
+  left: 0%;
+  top: 35%; }
+
+#softSkills {
+  width: 50%;
+  height: 15%;
+  display: block;
+  left: 0%;
+  top: 70%; }
+
+#passion {
+  width: 50%;
+  height: 15%;
+  display: block;
+  left: 50%;
+  top: 70%; }
+  #passion i {
+    margin: 10px 0 0 20px;
+    display: inline;
+    font-size: 20px; }
+
+#footer {
+  top: 95%; }
