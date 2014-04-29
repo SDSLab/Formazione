@@ -1,7 +1,7 @@
 <div id="header">
 
 	<div id="information">
-		CIPRIAN GAVRILIU
+		<p class="textUpper">C</p>IPRIAN <p class="textUpper">G</p>AVRILIU
 		<p>user interface and experince designer</p>
 	</div>
 	

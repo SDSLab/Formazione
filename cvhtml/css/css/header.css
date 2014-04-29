@@ -9,12 +9,16 @@
   width: 40%;
   height: 25%;
   box-sizing: border-box;
-  left: 0%;
-  font-size: 25px;
+  left: 5px;
+  font-size: 20px;
   font-family: 'Raleway', sans-serif; }
   #information p {
-    margin: -2px 0 0 3px;
-    font-size: 12px; }
+    margin: 0px 0 0 3px;
+    font-size: 11px; }
+  #information p.textUpper {
+    margin: 0;
+    display: inline;
+    font-size: 30px; }
 
 #contact {
   position: absolute;
@@ -24,6 +28,7 @@
   display: inline;
   padding: 10px 10px 10px 10px;
   left: 55%;
+  top: 3%;
   font-family: 'Lato', sans-serif;
   font-size: 10px; }
   #contact i {
@@ -37,7 +42,8 @@
   box-sizing: border-box;
   display: inline;
   left: 89%;
-  margin: 0px 0px 0px 20px;
+  top: 4%;
+  margin: 0px 0px 0px 25px;
   font-size: 18px;
   color: #14b4f0; }
 
@@ -48,7 +54,7 @@
   box-sizing: border-box;
   display: inline;
   left: 0%;
-  top: 35%;
+  top: 40%;
   font-size: 12px; }
 
 #sun {

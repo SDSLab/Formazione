@@ -24,17 +24,25 @@ $fontp:18px;
 	box-sizing:border-box;
 	
 	
-	left:0%;
+	left:5px;
 	
 	
-	font-size:25px;
+	font-size:20px;
 	font-family: 'Raleway', sans-serif;
 		
 		p{
 			
-			margin:-2px 0 0 3px ;
+			margin:0px 0 0 3px ;
 			
-			font-size:12px;
+			font-size:11px;
+		
+		}
+		
+		p.textUpper{
+			
+			margin:0 ;
+			display:inline;
+			font-size:30px;
 		
 		}
 
@@ -51,6 +59,7 @@ $fontp:18px;
 	
 	padding:10px 10px 10px 10px;
 	left:55%;
+	top:3%;
 	
 	font-family: 'Lato', sans-serif;
 	font-size:10px;
@@ -76,8 +85,9 @@ $fontp:18px;
 	
 	
 	left:89%;
+	top:4%;
 	
-	margin:0px 0px 0px 20px;
+	margin:0px 0px 0px 25px;
 	font-size:18px;
 	color:$colorblue;	
 	
@@ -95,7 +105,7 @@ $fontp:18px;
 	
 	
 	left:0%;
-	top:35%;
+	top:40%;
 	
 	
 	
@@ -221,3 +231,4 @@ $fontp:18px;
 	color:$colorblue;
 	
 }
+

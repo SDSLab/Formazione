@@ -1,0 +1,41 @@
+header {
+  position: relative;
+  min-height: 680px;
+  background-image: url(http://aetherthemes.com/demo/form/images/hero-home.jpg);
+  background-position: 50% 0px; }
+  header img {
+    position: absolute;
+    top: 60px;
+    left: 5%; }
+
+nav {
+  position: absolute;
+  width: 35%;
+  right: 5%;
+  top: 60px;
+  font-size: 13px;
+  line-height: 35px;
+  color: white; }
+
+nav ul {
+  height: 35px;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: white; }
+
+nav ul li {
+  height: 35px;
+  padding: 5px 35px 5px 0;
+  display: inline; }
+
+nav ul li i {
+  position: absolute;
+  box-sizing: border-box;
+  padding: 8px 0px 0px 8px; }
+
+nav li.spaceLeft {
+  padding: 5px 0px 5px 35px; }
+
+nav li.borderMenu {
+  border-right: 1px solid white; }
