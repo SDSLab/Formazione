@@ -1,0 +1,179 @@
+
+
+#philosophy{
+
+	position:relative;
+	
+	height:320px;
+	
+	box-sizing:border-box;
+	padding: 90px 15px 80px 15px;
+	
+
+}
+
+#philosophy p {
+
+	font-size:1em;
+	color:#424242;
+
+}
+
+#work{
+
+	position:relative;
+	
+	height:774px;
+
+	background-color:#f2f2f1;
+
+}
+
+#saying{
+
+	position:relative;
+	
+	height:380px;
+
+
+
+}
+
+.row{
+
+	position:relative;
+	
+	width:1170px;
+	
+	
+	margin:0 auto 0 auto;
+
+
+}
+
+.row.Say{
+
+	text-align:center;
+		color: #303336;
+
+}
+
+.row.Say p{
+
+	text-align:center;
+		color: #303336;
+		margin:10px 0 0 0;
+
+}
+
+.elementRow{
+
+	position:relative;
+
+	line-height: 1.9em;
+	
+	box-sizing:border-box;
+	
+	display:inline-block;
+	padding:0 15px 0 15px;
+	
+
+}
+
+
+
+
+
+.elementRow.Phi{
+
+	width:33%;
+	
+
+}
+
+.elementRow.Work{
+
+	width:50%;
+	left:50%;
+	padding: 0 15px 45px 15px;
+
+
+}
+
+
+
+.elementRow.Little{
+
+	width:25%;
+
+}
+
+.elementRow.Little h3{
+
+	color: #505656;
+	display:inline;
+	
+
+}
+
+.elementRow.Little i{
+	
+
+	margin:0px 10px 0 0;
+	display:inline;
+	
+	color: #7a7a7a;
+	font-size:26px;
+	
+	
+
+}
+
+.elementRow.Little p{
+
+	color: #7a7a7a;
+	font-size:14px;
+	margin:8px 0 0 0;
+	line-height:1.8em;
+
+}
+
+
+.elementRow.Work h2{
+	
+	color: #505656;
+	
+}
+
+.elementRow.Work p{
+
+	color: #7a7a7a;
+	
+}
+
+
+	
+.picture{
+
+
+	position:absolute;
+	
+	width:40%;
+	height:100%;
+	min-height: 280px;
+	
+	background-image:url('http://aetherthemes.com/demo/form/images/feature-image1.jpg');
+	background-size: cover;
+	background-position: 50% 20%;
+
+
+}
+
+.container{
+	
+	position:relative;
+
+	box-sizing:border-box;
+	padding: 90px 15px 80px 15px;
+
+}

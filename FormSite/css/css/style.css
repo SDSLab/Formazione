@@ -1,32 +1,94 @@
 body {
   padding: 0px;
   margin: 0px;
-  font-family: 'Lato', sans-serif;
-  font-size: 15px;
+  font: normal 16px "Lato",arial,sans-serif;
   font-weight: 300; }
+
+h1, h2, h3 {
+  margin: 8px 0 16px 0;
+  letter-spacing: -1px;
+  font-family: 'Montserrat', 'sans-serif';
+  font-weight: 400; }
+
+h1 {
+  font-size: 46px; }
+
+h2 {
+  font-size: 28px; }
+
+h3 {
+  font-size: 18px; }
 
 #main {
   width: 100%;
-  height: 100%; }
+  height: auto; }
 
 header {
   position: relative;
   min-height: 680px;
   background-image: url(http://aetherthemes.com/demo/form/images/hero-home.jpg);
-  background-position: 50% 0px; }
+  background-position: 50% 0px;
+  background-attachment: fixed; }
   header img {
     position: absolute;
     top: 60px;
     left: 5%; }
 
+#containerHeader {
+  height: 350px;
+  top: 290px;
+  color: white;
+  display: block;
+  color: white; }
+
+a.btnHeader {
+  position: absolute;
+  left: 263px;
+  top: 66%;
+  padding: 15px 45px;
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 13px;
+  color: white; }
+
+a.btnWork {
+  position: absolute;
+  left: 51%;
+  top: 90%;
+  font-size: 13px;
+  padding: 15px 45px;
+  border: 1px solid rgba(80, 86, 86, 0.5);
+  background: transparent;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: 400;
+  color: #505656; }
+
+#line {
+  position: absolute;
+  width: 1px;
+  height: 81px;
+  left: 50%;
+  margin: 50px 0 0 0;
+  background-color: rgba(255, 255, 255, 0.7); }
+
 nav {
   position: absolute;
-  width: 35%;
+  width: 500px;
   right: 5%;
   top: 60px;
   font-size: 13px;
+  font-weight: 400;
   line-height: 35px;
   color: white; }
+
+.barAni {
+  position: absolute;
+  width: 40px;
+  height: 1px;
+  top: 98%;
+  background-color: white; }
 
 nav ul {
   height: 35px;
@@ -37,16 +99,106 @@ nav ul {
 
 nav ul li {
   height: 35px;
-  padding: 5px 35px 5px 0;
+  padding: 9px 35px 10px 0;
   display: inline; }
 
-nav ul li i {
-  position: absolute;
-  box-sizing: border-box;
-  padding: 8px 0px 0px 8px; }
-
-nav li.spaceLeft {
-  padding: 5px 0px 5px 35px; }
+nav li.searchIcon {
+  font-size: 15px;
+  font-weight: 100;
+  padding: 5px 0px 5px 30px; }
 
 nav li.borderMenu {
-  border-right: 1px solid white; }
+  border-right: 1px solid rgba(255, 255, 255, 0.7); }
+
+.firstFace {
+  position: relative;
+  width: 700px;
+  margin: 0 auto 0 auto;
+  text-align: center; }
+
+#philosophy {
+  position: relative;
+  height: 320px;
+  box-sizing: border-box;
+  padding: 90px 15px 80px 15px; }
+
+#philosophy p {
+  font-size: 1em;
+  color: #424242; }
+
+#work {
+  position: relative;
+  height: 774px;
+  background-color: #f2f2f1; }
+
+#saying {
+  position: relative;
+  height: 380px; }
+
+.row {
+  position: relative;
+  width: 1170px;
+  margin: 0 auto 0 auto; }
+
+.row.Say {
+  text-align: center;
+  color: #303336; }
+
+.row.Say p {
+  text-align: center;
+  color: #303336;
+  margin: 10px 0 0 0; }
+
+.elementRow {
+  position: relative;
+  line-height: 1.9em;
+  box-sizing: border-box;
+  display: inline-block;
+  padding: 0 15px 0 15px; }
+
+.elementRow.Phi {
+  width: 33%; }
+
+.elementRow.Work {
+  width: 50%;
+  left: 50%;
+  padding: 0 15px 45px 15px; }
+
+.elementRow.Little {
+  width: 25%; }
+
+.elementRow.Little h3 {
+  color: #505656;
+  display: inline; }
+
+.elementRow.Little i {
+  margin: 0px 10px 0 0;
+  display: inline;
+  color: #7a7a7a;
+  font-size: 26px; }
+
+.elementRow.Little p {
+  color: #7a7a7a;
+  font-size: 14px;
+  margin: 8px 0 0 0;
+  line-height: 1.8em; }
+
+.elementRow.Work h2 {
+  color: #505656; }
+
+.elementRow.Work p {
+  color: #7a7a7a; }
+
+.picture {
+  position: absolute;
+  width: 40%;
+  height: 100%;
+  min-height: 280px;
+  background-image: url("http://aetherthemes.com/demo/form/images/feature-image1.jpg");
+  background-size: cover;
+  background-position: 50% 20%; }
+
+.container {
+  position: relative;
+  box-sizing: border-box;
+  padding: 90px 15px 80px 15px; }
