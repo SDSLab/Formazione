@@ -53,7 +53,7 @@
 			</div>
 		</div>
 		
-				<a href="#" class="btnWork"> LEARN MORE</a>
+				<a href="#" class="button btnWork"> LEARN MORE</a>
 			
 		
 	</div>
@@ -72,5 +72,8 @@
 	</div>
 </div>
 
+<script src="css/js/parallax.js"></script>
+<script src="css/js/menubar.js"></script>
+<script src="css/js/fixnav.js"></script>
 
 

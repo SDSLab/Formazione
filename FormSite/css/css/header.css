@@ -2,12 +2,7 @@ header {
   position: relative;
   min-height: 680px;
   background-image: url(http://aetherthemes.com/demo/form/images/hero-home.jpg);
-  background-position: 50% 0px;
-  background-attachment: fixed; }
-  header img {
-    position: absolute;
-    top: 60px;
-    left: 5%; }
+  background-position: 50% 0px; }
 
 #containerHeader {
   height: 350px;
@@ -16,28 +11,25 @@ header {
   display: block;
   color: white; }
 
-a.btnHeader {
+a.button {
   position: absolute;
+  padding: 15px 45px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: 400; }
+
+a.button.btnHeader {
   left: 263px;
   top: 66%;
-  padding: 15px 45px;
   border: 1px solid rgba(255, 255, 255, 0.7);
-  border-radius: 5px;
-  text-decoration: none;
   font-size: 13px;
   color: white; }
 
-a.btnWork {
-  position: absolute;
+a.button.btnWork {
   left: 51%;
   top: 90%;
-  font-size: 13px;
-  padding: 15px 45px;
   border: 1px solid rgba(80, 86, 86, 0.5);
-  background: transparent;
-  text-decoration: none;
-  border-radius: 5px;
-  font-weight: 400;
+  font-size: 13px;
   color: #505656; }
 
 #line {
@@ -50,8 +42,7 @@ a.btnWork {
 
 nav {
   position: absolute;
-  width: 500px;
-  right: 5%;
+  width: 100%;
   top: 60px;
   font-size: 13px;
   font-weight: 400;
@@ -62,20 +53,39 @@ nav {
   position: absolute;
   width: 40px;
   height: 1px;
-  top: 98%;
-  background-color: white; }
+  top: 36px;
+  background-color: rgba(255, 255, 255, 0.7);
+  display: block; }
+
+.fixedmenu {
+  position: fixed;
+  background-color: rgba(45, 180, 216, 0.95);
+  padding-top: 0;
+  height: 65px;
+  top: 0%;
+  z-index: 200; }
+
+nav img {
+  position: absolute;
+  left: 5%; }
 
 nav ul {
+  position: relative;
   height: 35px;
+  width: 500px;
+  left: 67%;
   margin: 0;
-  padding: 0;
-  text-decoration: none;
-  color: white; }
+  padding: 0; }
+
+.fixedmenu ul, img {
+  top: 28%; }
 
 nav ul li {
   height: 35px;
-  padding: 9px 35px 10px 0;
-  display: inline; }
+  box-sizing: border-box;
+  padding: 0px 35px 10px 0;
+  display: inline-block;
+  cursor: pointer; }
 
 nav li.searchIcon {
   font-size: 15px;
