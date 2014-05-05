@@ -69,6 +69,28 @@
 			
 			<p>A selection of hand-picked testimonials. Super-easy to include or remove from your designs.</p>
 		</div>
+		<div class="row sliderIcon">
+			<i class="fa fa-circle"></i>
+			<i class="fa fa-circle"></i>
+			<i class="fa fa-circle"></i>
+			<i class="fa fa-circle"></i>
+		</div>
+		<div class="row slider">
+			<ul>
+				<li>
+					<p class="message">"Hey, Thanks for your speedy response on email. I just wanted to say, that the site and the framework are next to brilliant. 
+						Everything about it works great, and it was a cinch to put together. Awesome man... Rock ON!"</p>
+					<p class="testimonial">Andy Taffs <small>via Themeforest</small></p>
+				</li>
+				<li><p>"Great file Aether-Themes. Well documented, rich on PSD 's, and stunning looks. Recommended!"</p></li>
+				<li><p>"Hey, Thanks for your speedy response on email. I just wanted to say, that the site and the framework are next to brilliant. 
+				Everything about it works great, and it was a cinch to put together. Awesome man... Rock ON!"</p></li>
+				<li><p>"Hey, Thanks for your speedy response on email. I just wanted to say, that the site and the framework are next to brilliant. 
+				Everything about it works great, and it was a cinch to put together. Awesome man... Rock ON!"</p></li>
+			</ul>
+		
+		</div>
+	
 	</div>
 </div>
 

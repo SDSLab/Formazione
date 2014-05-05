@@ -13,23 +13,10 @@
   height: 774px;
   background-color: #f2f2f1; }
 
-#saying {
-  position: relative;
-  height: 380px; }
-
 .row {
   position: relative;
   width: 1170px;
   margin: 0 auto 0 auto; }
-
-.row.Say {
-  text-align: center;
-  color: #303336; }
-
-.row.Say p {
-  text-align: center;
-  color: #303336;
-  margin: 10px 0 0 0; }
 
 .elementRow {
   position: relative;

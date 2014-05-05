@@ -1,0 +1,79 @@
+#saying{
+
+	position:relative;
+	
+	height:380px;
+
+}
+
+.row.Say{
+
+	text-align:center;
+		color: #303336;
+
+}
+
+.row.Say p{
+
+	text-align:center;
+		color: #303336;
+		margin:10px 0 0 0;
+
+}
+
+
+.row.sliderIcon {	
+	
+	margin:5px auto 0 auto ;
+	
+
+}	
+.row.sliderIcon i{	
+	position:relative;
+	left:47%;
+	padding:0 0 0 5px ;
+	font-size:13px;
+
+}	
+
+.row.slider{
+	
+	max-height:400px;	
+	overflow:hidden;
+
+
+}
+
+.row.slider ul{
+
+	position:relative;
+	width:615%;
+	list-style:none;
+	margin:0;
+	padding:0;
+	font-size:24px;
+	
+
+
+
+}
+
+.row.slider li{
+	position:relative;
+	width:1170px;
+	display:inline-block;
+	text-align:center;
+	color: #424242;
+	line-height: 1.9em;
+	margin: 20px 0 0.7em;
+
+
+}
+
+.testimonial{
+
+	font-size: 16px;
+	color:#2db4d8;
+	text-align:center;
+
+}
