@@ -8,8 +8,8 @@
 	<a href="#" class="button btnHeader"> LEARN MORE</a>
 	</div>
 
-</header>
-<nav class="full">
+	
+	<nav>
 	<img src="http://aetherthemes.com/demo/form/images/logo.png">
 	<ul>
 		<div class="barAni"></div>
@@ -20,5 +20,7 @@
 		</li><li href="#" class="borderMenu bar">CONTACT
 		</li><li class="searchIcon"><i class="fa fa-search "></i></li>
 	</ul>
-</nav>
+	</nav>
+</header>
+
 

@@ -1,0 +1,11 @@
+@-webkit-keyframes slideDown
+{
+	0%{top:-65px;}
+	100%{top:0%;}
+}
+
+@-webkit-keyframes fadeOut
+{
+	0%{opacity:1;}
+	100%{opacity:0;}
+}
