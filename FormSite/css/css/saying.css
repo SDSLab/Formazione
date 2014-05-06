@@ -1,5 +1,6 @@
 #saying {
-  position: relative;
+  position: absolute;
+  width: 100%;
   height: 380px; }
 
 .row.Say {
@@ -29,45 +30,26 @@
 .bgcircle {
   background-color: black; }
 
-.row.slider {
-  max-height: 400px;
-  overflow: hidden; }
-
 .row.slider ul {
   position: relative;
-  width: 615%;
+  width: 100%;
   list-style: none;
   margin: 0;
   padding: 0;
-  font-size: 24px; }
-
-.row.slider li {
-  position: relative;
-  width: 1170px;
-  display: inline-block;
-  min-height: 150px;
-  margin: 20px 0 0.7em; }
-
-.slideMe {
-  left: 0;
-  -webkit-transition: left 1s linear; }
-
-.aniSlide {
-  -webkit-animation: animationEnter 1.2s linear forwards; }
-
-.one {
+  font-size: 24px;
+  overflow: hidden;
   left: 0; }
 
-.two {
-  left: -1170px; }
+.row.slider ul li {
+  position: relative;
+  max-height: 150px;
+  margin: 20px 0 0.7em;
+  -webkit-transition: left 1s linear; }
 
-.three {
-  left: -2340px; }
+.row.slider ul li:first-child {
+  -webkit-animation: animationEnter 1.2s linear forwards; }
 
-.four {
-  left: -3510px; }
-
-.message {
+.row.slider ul li blockquote {
   text-align: center;
   color: #424242;
   line-height: 1.9em;
@@ -77,3 +59,15 @@
   font-size: 16px;
   color: #2db4d8;
   text-align: center; }
+
+.row.slider ul li[data-index='0'] {
+  left: 0; }
+
+.row.slider ul li[data-index='1'] {
+  left: -50%; }
+
+.row.slider ul li[data-index='2'] {
+  left: -200%; }
+
+.row.slider ul li[data-index='3'] {
+  left: -300%; }
