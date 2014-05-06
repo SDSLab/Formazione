@@ -49,7 +49,23 @@
 .row.slider ul li:first-child {
   -webkit-animation: animationEnter 1.2s linear forwards; }
 
+<<<<<<< HEAD
 .row.slider ul li blockquote {
+=======
+.row.slider ul[data-index='0'] {
+  left: 0; }
+
+.row.slider ul[data-index='1'] {
+  left: -1170px; }
+
+.row.slider ul[data-index='2'] {
+  left: -2340px; }
+
+.row.slider ul[data-index='3'] {
+  left: -3510px; }
+
+.message {
+>>>>>>> 66c8eec5ca747228b911c7d4873fad67861dbd42
   text-align: center;
   color: #424242;
   line-height: 1.9em;
