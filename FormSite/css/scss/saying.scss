@@ -23,18 +23,32 @@
 
 
 .row.sliderIcon {	
-	
+	height:20px;
 	margin:5px auto 0 auto ;
 	
+	
 
 }	
-.row.sliderIcon i{	
+.circle {	
 	position:relative;
 	left:47%;
-	padding:0 0 0 5px ;
-	font-size:13px;
+
+	margin:0px 0 0 5px;
+	width:7px;
+	height:7px;
+	
+	display:inline-block;
+	border-radius:5px;
+	background-color:white;
+	border:1px solid black;
 
 }	
+
+.bgcircle{
+
+	background-color:black;
+
+}
 
 .row.slider{
 	
@@ -53,6 +67,7 @@
 	padding:0;
 	font-size:24px;
 	
+	
 
 
 
@@ -62,10 +77,38 @@
 	position:relative;
 	width:1170px;
 	display:inline-block;
+	min-height:150px;
+	margin: 20px 0 0.7em;
+
+
+}
+
+.slideMe{
+
+	left:0;
+	
+	-webkit-transition:left 1s linear;
+
+}
+
+.aniSlide{
+	
+	-webkit-animation:animationEnter 1.2s linear forwards;
+
+}
+
+.one{left:0;}
+.two{left:-1170px;}
+.three{left:-2340px;}
+.four{left:-3510px;}
+
+.message{
+
+
 	text-align:center;
 	color: #424242;
 	line-height: 1.9em;
-	margin: 20px 0 0.7em;
+	margin:0;
 
 
 }

@@ -70,23 +70,27 @@
 			<p>A selection of hand-picked testimonials. Super-easy to include or remove from your designs.</p>
 		</div>
 		<div class="row sliderIcon">
-			<i class="fa fa-circle"></i>
-			<i class="fa fa-circle"></i>
-			<i class="fa fa-circle"></i>
-			<i class="fa fa-circle"></i>
+			<div class="circle first bgcircle"></div>
+			<div class="circle second"></div>
+			<div class="circle third"></div>
+			<div class="circle fourth"></div>
 		</div>
 		<div class="row slider">
-			<ul>
-				<li>
+			<ul class="slideMe">
+				<li class="aniSlide">
 					<p class="message">"Hey, Thanks for your speedy response on email. I just wanted to say, that the site and the framework are next to brilliant. 
 						Everything about it works great, and it was a cinch to put together. Awesome man... Rock ON!"</p>
 					<p class="testimonial">Andy Taffs <small>via Themeforest</small></p>
 				</li>
-				<li><p>"Great file Aether-Themes. Well documented, rich on PSD 's, and stunning looks. Recommended!"</p></li>
-				<li><p>"Hey, Thanks for your speedy response on email. I just wanted to say, that the site and the framework are next to brilliant. 
-				Everything about it works great, and it was a cinch to put together. Awesome man... Rock ON!"</p></li>
-				<li><p>"Hey, Thanks for your speedy response on email. I just wanted to say, that the site and the framework are next to brilliant. 
-				Everything about it works great, and it was a cinch to put together. Awesome man... Rock ON!"</p></li>
+				<li><p class="message">"Great file Aether-Themes. Well documented, rich on PSD 's, and stunning looks. Recommended!"</p>
+					<p class="testimonial">Lois Lane <small>via Twitter</small></p>
+				</li>
+				<li><p class="message">"Nice design! Looks / performs great on our iPad 3 - and this is not the case with most themes honestly!"</p>
+					<p class="testimonial">JRCM Design <small>via Themeforest</small></p> 
+				</li>
+				<li><p class="message">"Awesome, awesome theme. Easy to use and the code and accompanying files are super easy to understand and modify. Well done."</p>
+					<p class="testimonial">Ian Jarret <small>via Themeforest</small></p> 
+				</li>
 			</ul>
 		
 		</div>
@@ -97,5 +101,5 @@
 <script src="css/js/parallax.js"></script>
 <script src="css/js/menubar.js"></script>
 <script src="css/js/fixnav.js"></script>
-
+<script src="css/js/slideshow.js"></script>
 
