@@ -80,16 +80,16 @@
 				<li>
 					<blockquote>"Hey, Thanks for your speedy response on email. I just wanted to say, that the site and the framework are next to brilliant. 
 						Everything about it works great, and it was a cinch to put together. Awesome man... Rock ON!"</blockquote>
-					<p class="testimonial">Andy Taffs <small>via Themeforest</small></p>
+					<p>Andy Taffs <small>via Themeforest</small></p>
 				</li>
-				<li><blockquote>"Great file Aether-Themes. Well documented, rich on PSD 's, and stunning looks. Recommended!"</blockquote>
-					<p class="testimonial">Lois Lane <small>via Twitter</small></p>
+				<li ><blockquote>"Great file Aether-Themes. Well documented, rich on PSD 's, and stunning looks. Recommended!"</blockquote>
+					<p>Lois Lane <small>via Twitter</small></p>
 				</li>
 				<li><blockquote>"Nice design! Looks / performs great on our iPad 3 - and this is not the case with most themes honestly!"</blockquote>
-					<p class="testimonial">JRCM Design <small>via Themeforest</small></p> 
+					<p>JRCM Design <small>via Themeforest</small></p> 
 				</li>
 				<li><blockquote>"Awesome, awesome theme. Easy to use and the code and accompanying files are super easy to understand and modify. Well done."</blockquote>
-					<p class="testimonial">Ian Jarret <small>via Themeforest</small></p> 
+					<p>Ian Jarret <small>via Themeforest</small></p> 
 				</li>
 			</ul>
 		
