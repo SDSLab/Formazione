@@ -14,7 +14,7 @@
   <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
   <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
   
-  <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
   
 
   

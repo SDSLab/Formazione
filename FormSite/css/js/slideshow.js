@@ -9,12 +9,24 @@ $(document).ready(function(){
 		
 		var index = $('.circle').index(this);
 		
-
-		$('ul.slideMe li').eq(index).removeClass('slideEnter slideExit').addClass('slideCenter');
-		$('ul.slideMe li').eq(index).prevAll().addClass('slideExit').removeClass('slideCenter slideEnter');
-		$('ul.slideMe li').eq(index).nextAll().addClass('slideEnter').removeClass('slideCenter slideExit');
 		
-
+		
+		$('ul.slideMe li')
+		.addClass('slideExit')
+		.on('webkitTransitionEnd', function(e) {$('ul.slideMe li').removeClass('slideCenter');});
+	
+		
+		
+		
+		
+			
+			
+			
+				
+	
+		
+	
+		
 		});
 		
 
