@@ -1,8 +1,8 @@
 #saying{
 
-	position:absolute;
+	position:relative;
 	width:100%;
-	height:380px;
+	height:400px;
 
 }
 
@@ -88,9 +88,9 @@
 	margin: 20px 0 0.7em;
 	
 	
+	-webkit-transition:left 1s linear ;
 	
 	
-	-webkit-transition:left 2s linear ;
 	
 }
 
@@ -125,6 +125,6 @@
 
 
 
-.row.slider ul li.slideCenter{left:0;}
+.row.slider ul li.slideTransition{left:0%;}
 .row.slider ul li.slideEnter{left:+1170px;}
 .row.slider ul li.slideExit{left:-1170px;}

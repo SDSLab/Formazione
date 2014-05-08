@@ -70,10 +70,7 @@
 			<p>A selection of hand-picked testimonials. Super-easy to include or remove from your designs.</p>
 		</div>
 		<div class="row sliderIcon">
-			<div class="circle first bgcircle"></div>
-			<div class="circle second"></div>
-			<div class="circle third"></div>
-			<div class="circle fourth"></div>
+			
 		</div>
 		<div class="row slider">
 			<ul class="slideMe">
@@ -97,6 +94,33 @@
 	
 	</div>
 </div>
+
+
+<div id="portfolio">
+		<div class="row portf">
+			<p> ECCOMI</p>
+		</div>
+		<div class="row portf">
+			<p> ECCOMI</p>
+		</div>
+		<div class="row portf">
+			<p> ECCOMI</p>
+		</div>
+	
+</div>
+<div id="clients">
+
+
+
+</div>
+
+<div id="contact">
+
+
+
+</div>
+
+
 
 <script src="css/js/parallax.js"></script>
 <script src="css/js/menubar.js"></script>
