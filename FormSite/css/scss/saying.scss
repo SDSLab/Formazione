@@ -87,8 +87,8 @@
 	max-height:150px;
 	margin: 20px 0 0.7em;
 	
+	left:0;
 	
-	-webkit-transition:left 1s linear ;
 	
 	
 	
@@ -125,6 +125,6 @@
 
 
 
-.row.slider ul li.slideTransition{left:0%;}
-.row.slider ul li.slideEnter{left:+1170px;}
-.row.slider ul li.slideExit{left:-1170px;}
+.row.slider ul li.slideCenter{left:0%;-webkit-transition:left 1s linear ;}
+.row.slider ul li.slideEnter{left:+1170px;-webkit-transition:left 1s linear ;}
+.row.slider ul li.slideExit{left:-1170px;-webkit-transition:left 1s linear ;}

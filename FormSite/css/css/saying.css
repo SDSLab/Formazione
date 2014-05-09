@@ -51,7 +51,7 @@
   width: 100%;
   max-height: 150px;
   margin: 20px 0 0.7em;
-  -webkit-transition: left 1s linear; }
+  left: 0; }
 
 .row.slider ul li:first-child {
   -webkit-animation: animationEnter 1.2s linear forwards; }
@@ -67,11 +67,14 @@
   color: #2db4d8;
   text-align: center; }
 
-.row.slider ul li.slideTransition {
-  left: 0%; }
+.row.slider ul li.slideCenter {
+  left: 0%;
+  -webkit-transition: left 1s linear; }
 
 .row.slider ul li.slideEnter {
-  left: +1170px; }
+  left: +1170px;
+  -webkit-transition: left 1s linear; }
 
 .row.slider ul li.slideExit {
-  left: -1170px; }
+  left: -1170px;
+  -webkit-transition: left 1s linear; }
