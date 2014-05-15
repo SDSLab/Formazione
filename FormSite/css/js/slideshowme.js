@@ -5,6 +5,11 @@ $(document).ready(function(){
 	var indexLi=0;
 	
 	for (var i = 0; i < lengthLi; i++) {
+			$('.row.sliderIcon').append('<div class="circle"></div>');
+			$('ul.slideMe li').eq(i).attr('data-indexCi', i);
+	}
+	
+	for (i = 0; i < lengthLi; i++) {
 	
 		
 		

@@ -97,27 +97,143 @@
 
 
 <div id="portfolio">
-		<div class="row portf">
-			<p> ECCOMI</p>
-		</div>
-		<div class="row portf">
-			<p> ECCOMI</p>
-		</div>
-		<div class="row portf">
-			<p> ECCOMI</p>
-		</div>
+		
+		
+ <div class="rowGallery">
+	<div class="item">
+		<img  src="http://aetherthemes.com/demo/form/images/work/5.jpg">
+		<div class="description">  
+        
+			<p>The pack, the basic...</p>  
+        
+		</div> 
+	</div>
+	<div class="item">
+		<img  src="img/3.jpg">
+		<div class="description">  
+        
+			<p>The pack, the basic...</p>  
+        
+		</div> 
+	</div>
+	<div class="item">
+		<img  src="img/nb.jpg">
+		<div class="description">  
+        
+			<p>The pack, the basic...</p>  
+        
+		</div> 
+	</div>
+	<div class="item">
+		<img  src="img/7.gif">
+		<div class="description">  
+        
+			<p>The pack, the basic...</p>  
+        
+		</div> 
+	</div>
+ 
+</div>
+<div class="rowGallery">
+	<div class="item">
+		<img  src="http://aetherthemes.com/demo/form/images/work/4.jpg">
+		<div class="description">  
+        
+			<p>The pack, the basic...</p>  
+        
+		</div> 
+	</div>
+	<div class="item">
+		<img  src="http://aetherthemes.com/demo/form/images/work/1.jpg">
+		<div class="description">  
+        
+			<p>The pack, the basic...</p>  
+        
+		</div> 
+	</div>
+	<div class="item">
+		<img  src="http://aetherthemes.com/demo/form/images/work/3.jpg">
+		<div class="description">  
+        
+			<p>The pack, the basic...</p>  
+        
+		</div> 
+	</div>
+	<div class="item">
+		<img  src="http://aetherthemes.com/demo/form/images/work/5.jpg">
+		<div class="description">  
+        
+			<p>The pack, the basic...</p>  
+        
+		</div> 
+	</div>
+ 
+</div>
+<div class="rowGallery">
+	<div class="item">
+		<img  src="http://aetherthemes.com/demo/form/images/work/5.jpg">
+		<div class="description">  
+        
+			<p>The pack, the basic...</p>  
+        
+		</div> 
+	</div>
+	<div class="item">
+		<img  src="http://aetherthemes.com/demo/form/images/work/3.jpg">
+		<div class="description">  
+        
+			<p>The pack, the basic...</p>  
+        
+		</div> 
+	</div>
+	<div class="item">
+		<img  src="http://aetherthemes.com/demo/form/images/work/1.jpg">
+		<div class="description">  
+        
+			<p>The pack, the basic...</p>  
+        
+		</div> 
+	</div>
+	<div class="item">
+		<img  src="http://aetherthemes.com/demo/form/images/work/4.jpg">
+		<div class="description">  
+        
+			<p>The pack, the basic...</p>  
+        
+		</div> 
+	</div>
+ 
+</div>
+
+ 
+</div>
+		
+			
+		
 	
 </div>
 <div id="clients">
-
-
+	<div class="row">	
+		<ul class="imgClients">
+		<li><img src="http://aetherthemes.com/demo/form/images/logos/1.jpg"></li>
+		<li><img src="http://aetherthemes.com/demo/form/images/logos/2.jpg"></li>
+		<li><img src="http://aetherthemes.com/demo/form/images/logos/3.jpg"></li>
+		<li><img src="http://aetherthemes.com/demo/form/images/logos/4.jpg"></li>
+		</ul>
+	</div>
 
 </div>
 
 <div id="contact">
-
-
-
+	<div class="container">
+		<div class="row">
+			<h2>Are you impressed?</h2>
+			<p>If so, why don't you get in touch with us so we can talk about your projects.</p>
+		</div>
+		<div class="row">
+		<a href="#" class="button"> LEARN MORE</a>
+		</div>
+	</div>
 </div>
 
 
@@ -126,4 +242,5 @@
 <script src="css/js/menubar.js"></script>
 <script src="css/js/fixnav.js"></script>
 <script src="css/js/slideshow.js"></script>
+<script src="css/js/myGrid.js"></script>	
 

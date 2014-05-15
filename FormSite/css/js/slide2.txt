@@ -1,0 +1,108 @@
+var current=0;
+var next=0;
+var moviment=0;
+var transition=0;
+
+var sliderGet ={
+
+	init:function(){
+	
+		sliderGet.getCircle();
+		sliderGet.aniSlide();
+	
+	},
+	
+	getCircle:function(){
+	
+		var lengthLi=$('ul.slideMe li').length;
+
+		for (var i = 0; i < lengthLi; i++) {
+			$('.row.sliderIcon').append('<div class="circle"></div>');
+			$('ul.slideMe li').eq(i).attr('data-indexLi', i);
+		}
+		
+		$('.circle:first-child').addClass('bgcircle');
+		
+		$('.circle').on('click', function(){
+			$('.circle.bgcircle').removeClass("bgcircle");
+			$(this).addClass("bgcircle");
+			});
+			
+			
+		
+	},
+	
+	aniSlide:function(){
+	
+		$('ul.slideMe li:not(ul.slideMe li:first-child)').addClass('slideEnter');
+		$('ul.slideMe li:first-child').addClass('slideCenter');
+		
+			$('.circle').on('click', function(){
+			
+				next=$('.circle').index(this);
+				current=$('ul.slideMe li.slideCenter').attr('data-indexLi');
+				current=parseInt(current);
+				var cont=0;
+				if(next>current){
+			
+					moviment=1;
+					transition=('slideExit');
+					
+					}else{
+					
+					moviment=0;	
+					transition=('slideEnter');
+					
+					
+				}
+				console.log(current+" "+next+" "+moviment);
+				
+				
+				
+			var cicle= function(current,cont){
+				
+				var i = (cont == 1) ? 0.250 : ((cont > 1) ? cont - 0.5 : cont);
+				
+				$('ul.slideMe li[data-indexLi="'+(current)+'"]').delay(i*500).queue(function (){
+					$(this).not(':first-child').not(':first-child').addClass('trans').dequeue();
+					$(this).removeClass('slideExit slideCenter slideEnter').addClass(transition).dequeue();
+					
+				});			
+				
+				
+				
+			}	
+				
+			while (next>current){
+				
+				cicle(current++, cont++);
+			console.log(current + " " + cont);
+				
+			}
+			
+			while (next<current){
+				
+				cicle(current--, cont++);
+				
+				
+				console.log(current+" " + cont);
+			}
+			
+			$('ul.slideMe li[data-indexLi="'+(next)+'"]').delay(cont*500).queue(function (){
+					$(this).addClass('slideCenter').removeClass('slideExit slideEnter').dequeue();
+					
+					$('ul.slideMe li').removeClass('trans');
+				});	
+				
+			
+			
+			});
+			
+			
+	},
+	
+};
+	
+	
+
+$(document).ready(sliderGet.init);

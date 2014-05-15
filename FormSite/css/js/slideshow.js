@@ -1,98 +1,28 @@
-var current=0;
-var next=0;
-var moviment=0;
-var transition=0;
-
-var sliderGet ={
-
-	init:function(){
+$(document).ready(function(){
 	
-		sliderGet.getCircle();
-		sliderGet.aniSlide();
+	var lengthLi=$('ul.slideMe li').length;
+	var posLi=0;
+	var indexLi=0;
 	
-	},
-	
-	getCircle:function(){
-	
-		var lengthLi=$('ul.slideMe li').length;
-
-		for (var i = 0; i < lengthLi; i++) {
+	for (var i = 0; i < lengthLi; i++) {
 			$('.row.sliderIcon').append('<div class="circle"></div>');
-			$('ul.slideMe li').eq(i).attr('data-indexLi', i);
-		}
-		
-		$('.circle:first-child').addClass('bgcircle');
-		
-		$('.circle').on('click', function(){
-			$('.circle.bgcircle').removeClass("bgcircle");
-			$(this).addClass("bgcircle");
-			});
 			
-			
-		
-	},
+			$('ul.slideMe li').eq(i).attr('data-indexCi', i);
+	}
 	
-	aniSlide:function(){
-	
-	$('ul.slideMe li:not(ul.slideMe li:first-child)').addClass('slideEnter');
-	$('ul.slideMe li:first-child').addClass('slideCenter');
-	
-	
-	
+	for (i = 0; i < lengthLi; i++) {
 
-	
-		$('.circle').on('click', function(){
-		
-			next=$('.circle').index(this);
-			current=$('ul.slideMe li.slideCenter').attr('data-indexLi');
-			
-			if(next>current){
-		
-				moviment=1;
-				transition=('slideExit');
-				}else{
-				
-				moviment=0;
-				transition=('slideEnter');
-			}
-			console.log(current+" "+next+" "+moviment);
-			
-			
-			var i=0;
-			
-		while(current<next){
-			
-			
-			
-			
-			
-			
-			$('ul.slideMe li[data-indexLi="'+current+'"]').addClass(transition).removeClass('slideCenter').delay(500).queue(function(){
-			
-			
-			
-			$('ul.slideMe li[data-indexLi="'+next+'"]').delay(500).addClass('slideCenter').queue(function(){
-				
-				$('ul.slideMe li[data-indexLi="'+next+'"]').removeClass('slideEnter slideExit');
-			});;
-				});;
-				current++;
-				
-			
-		
-		
-		
-		}
-			
-			
-		});
-		
-		
-		
-	},
-	
-};
-	
-	
+		$('ul.slideMe li').eq(i).attr('data-indexLi', i);
 
-$(document).ready(sliderGet.init);
+	}
+	$('.circle:first-child').addClass('bgcircle');
+	$('.circle').on('click', function(){
+		$('.circle.bgcircle').removeClass("bgcircle");
+		$(this).addClass("bgcircle");
+		
+		var index = $('.circle').index(this);
+		
+		$('ul.slideMe').attr('data-indexLi', index).css("left",index*(-100)+"%");
+	});
+
+});

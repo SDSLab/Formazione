@@ -3,22 +3,23 @@
 	position:relative;
 	width:100%;
 	height:400px;
+	margin:0 0 50px 0 ;
 
 }
 
 .row.Say{
 
 	text-align:center;
-		color: #303336;
-		width:100%;
+	color: #303336;
+	width:100%;
 
 }
 
 .row.Say p{
 
 	text-align:center;
-		color: #303336;
-		margin:10px 0 0 0;
+	color: #303336;
+	margin:10px 0 0 0;
 
 }
 
@@ -69,13 +70,9 @@
 	padding:0;
 	font-size:24px;
 	left:0;
-	
-	
-	
-	
 
-
-
+	-webkit-transition:all 1s linear;
+	
 }
 
 .row.slider ul li{
@@ -86,11 +83,6 @@
 	
 	max-height:150px;
 	margin: 20px 0 0.7em;
-	
-	left:0;
-	
-	
-	
 	
 }
 
@@ -125,6 +117,55 @@
 
 
 
-.row.slider ul li.slideCenter{left:0%;-webkit-transition:left 1s linear ;}
-.row.slider ul li.slideEnter{left:+1170px;-webkit-transition:left 1s linear ;}
-.row.slider ul li.slideExit{left:-1170px;-webkit-transition:left 1s linear ;}
+
+.row.slider ul li[data-indexLi='0']{left:0;}
+.row.slider ul li[data-indexLi='1']{left:100%;}
+.row.slider ul li[data-indexLi='2']{left:200%;}
+.row.slider ul li[data-indexLi='3']{left:300%;}
+
+
+@media (max-width: 1170px) {
+
+	.row.slider{
+		max-width:875px;
+	}
+	.row.slider ul li blockquote{
+		font-size:20px;
+	}
+	
+	
+}
+@media (max-width: 675px) {
+	
+	#saying{
+	
+		margin:0 0 60px 0 ;
+	
+	}
+	.row.slider{
+		max-width:500px;
+	}
+	.row.slider ul li blockquote{
+		font-size:16px;
+		line-height:1.9em;
+	}
+	
+	
+}
+@media (max-width: 450px) {
+	
+	#saying{
+	
+		margin:0 0 60px 0 ;
+	
+	}
+	.row.slider{
+		max-width:400px;
+	}
+	.row.slider ul li blockquote{
+		font-size:16px;
+		line-height:1.5em;
+	}
+	
+	
+}
