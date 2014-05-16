@@ -1,0 +1,37 @@
+footer {
+  position: relative;
+  background: -webkit-linear-gradient(left, #303336 0%, #303336 65%, #18191b 65%, #18191b 100%);
+  color: #f2f2f1; }
+
+footer .container {
+  box-sizing: border-box;
+  padding: 50px 0px;
+  width: 100%;
+  display: inline-block; }
+
+footer .container .row {
+  margin: 0 auto 0 auto; }
+
+footer ul {
+  list-style: none;
+  display: inline-block;
+  margin: 0 auto 0 auto;
+  padding: 0; }
+
+footer ul.contactUl {
+  width: 60%; }
+
+footer ul.contactSocial {
+  position: relative;
+  width: 300px;
+  margin: 0 0 0 165px; }
+
+footer ul li {
+  color: #f2f2f1;
+  margin: 0 0 0 5%;
+  display: inline-block;
+  opacity: .7;
+  font-weight: 300; }
+
+footer ul li i {
+  margin: 0 10px	0 0; }

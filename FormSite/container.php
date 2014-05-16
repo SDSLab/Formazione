@@ -210,8 +210,7 @@
 		
 			
 		
-	
-</div>
+
 <div id="clients">
 	<div class="row">	
 		<ul class="imgClients">
@@ -231,7 +230,9 @@
 			<p>If so, why don't you get in touch with us so we can talk about your projects.</p>
 		</div>
 		<div class="row">
-		<a href="#" class="button"> LEARN MORE</a>
+			<a href="#" class="button btncontact one"> CONTACT US</a>
+			<div class="linecontact one"></div><i>or</i><div class="linecontact two"></div>
+			<a href="#" class="button btncontact two"> VIEW BLOG</a>
 		</div>
 	</div>
 </div>

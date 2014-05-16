@@ -39,25 +39,3 @@
 
 .aniDes {
   bottom: 0; }
-
-@media (max-width: 1000px) {
-  .rowGallery .item:last-child img {
-    display: none; }
-
-  .item {
-    width: 33.3333333%; } }
-@media (max-width: 700px) {
-  .rowGallery:last-child {
-    display: none; }
-
-  .rowGallery .item:nth-last-child(2) img {
-    display: none; }
-
-  .item {
-    width: 50%; } }
-@media (max-width: 400px) {
-  .rowGallery .item:nth-last-child(1) img {
-    display: none; }
-
-  .item {
-    width: 100%; } }

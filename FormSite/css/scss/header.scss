@@ -9,9 +9,6 @@ header{
 	
 	background-image: url(http://aetherthemes.com/demo/form/images/hero-home.jpg);
 	background-position: 50% 0px;
-	
-	
-
 
 }
 
@@ -43,12 +40,14 @@ a.button.btnHeader{
 	top:66%;
 	
 	border:1px solid $colorwhite;
-	
+	opacity:1;
 	font-size:13px;
 	color:white;
 	
 
 }
+
+a.button.btnHeader:hover{-webkit-transition: opacity 0.25s linear; opacity:0.5;}
 
 a.button.btnWork{
 	
@@ -61,7 +60,7 @@ a.button.btnWork{
 	color: #505656;
 
 }
-
+a.button.btnWork:hover{-webkit-transition: all 0.25s linear; background-color:#303336;color:white;}
 
 #line{
 	position:absolute;
@@ -95,7 +94,38 @@ nav  {
   
 }
 
+.navOut{
+	position:absolute;
+	z-index:500;
+	right:-17em;
+	width:17em;
+	background-color:black;
+	color:white;
+	height:100%;
 
+
+	-webkit-transition:right 0.35s ease-in-out;
+}
+
+body.openMenu .navOut{
+	right:0;
+}
+
+
+body.openMenu .navOut ul{
+	position:fixed;
+	float:left;
+	margin:40px  0 0 100px;
+	padding:0;
+	list-style:none;
+
+}
+
+.navOut ul li{
+	margin:20px 0 0 0;
+	text-align:center;
+
+}
 
 .fixedmenu.fadeOutAni{
 	top:0%;
@@ -146,15 +176,34 @@ nav img{
 	
 	
 }
+nav .iconmenu{
 
+	position:absolute;
+	display:none;
+	left:90%;
+	top:15px;
+}
+
+nav .iconmenu i{
+
+	position:relative;
+	font-size:25px;
+	color:white;
+	top:5px;
+	margin: 0 5px 0 0;
+	
+
+
+}
 nav ul {
 	
-	position:relative;
+	position:absolute;
 	height: 35px;
 	width:500px; 
 	left:67%;
 	margin: 0;
 	padding: 0;
+	display:hidden;
 
 }
 
@@ -176,10 +225,6 @@ nav ul li {
 	
   
 }
-
-
-
-
 
 
 nav li.searchIcon{

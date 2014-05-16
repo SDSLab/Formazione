@@ -10,7 +10,12 @@
 
 	
 	<nav>
+		
 		<img src="http://aetherthemes.com/demo/form/images/logo.png">
+		<div class="iconmenu">
+			<i class="fa fa-bars"></i>MENU
+			
+		</div>
 		<ul>
 			<div class="barAni"></div>
 			<li href="#" class="bar">HOME

@@ -72,7 +72,3 @@
   position: relative;
   box-sizing: border-box;
   padding: 90px 15px 80px 15px; }
-
-@media (max-width: 1170px) {
-  .row {
-    width: 875px; } }

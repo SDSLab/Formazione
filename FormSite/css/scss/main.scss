@@ -4,10 +4,10 @@ body {
 	
 	padding: 0px;
 	margin:0px;
-	
+	position:relative;
 	
 	font: normal 16px "Lato",arial,sans-serif;
-	
+	overflow-x:hidden;
 	font-weight:300;
 	
 
@@ -42,19 +42,41 @@ h3{
 #main {
 	width: 100%;
 	height: auto;
-
+	position:relative;
+	left:0em;
 	
+	-webkit-transition:left 0.35s ease-in-out;
 
 }
 
-@media (max-width: 1170px) {
+body.openMenu #main{
 
-	.row{
-		width:875px;
-	}
+	left:-17em;
 	
+}
+
+#overlay{
 	
-}	
+	position:fixed;
+	height:100%;
+	top:0;
+	width:100%;
+	
+
+
+
+}
+
+
+body.openMenu #overlay{
+
+	
+	left:-17em;
+	z-index:400;
+
+}
+
+
 
 
 

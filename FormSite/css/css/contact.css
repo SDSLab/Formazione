@@ -1,8 +1,16 @@
 #contact {
   width: 100%;
   position: relative;
-  height: 300px;
   background: #f2f2f1; }
+
+#contact .row {
+  text-align: center;
+  height: 100px; }
+
+#contact .row i {
+  position: absolute;
+  left: 49%;
+  top: 57%; }
 
 #contact .row h2 {
   text-align: center;
@@ -12,4 +20,45 @@
   text-align: center;
   margin: 20px 0 0 0;
   color: #7a7a7a;
-  font-size: 14px; }
+  font-size: 1em; }
+
+.button.btncontact {
+  position: relative;
+  top: 60px;
+  border: 1px solid rgba(80, 86, 86, 0.5);
+  font-size: 13px;
+  color: #505656; }
+
+.button.btncontact.one {
+  background-color: transparent;
+  color: rgba(45, 216, 125, 0.5);
+  left: -10%;
+  border-color: rgba(45, 216, 125, 0.5); }
+
+.button.btncontact.two {
+  background-color: transparent;
+  left: 10%; }
+
+.button.btncontact.two:hover {
+  -webkit-transition: all 0.25s linear;
+  background-color: #303336;
+  color: white; }
+
+.button.btncontact.one:hover {
+  -webkit-transition: all 0.25s linear;
+  background-color: #2dd87d;
+  color: white; }
+
+.linecontact {
+  position: absolute;
+  width: 50px;
+  height: 1px;
+  background-color: rgba(80, 86, 86, 0.5); }
+
+.linecontact.one {
+  left: 43%;
+  top: 71%; }
+
+.linecontact.two {
+  left: 52%;
+  top: 71%; }
