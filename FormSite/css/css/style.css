@@ -595,6 +595,9 @@ ul.imgClients li {
 #footer ul li i {
   margin: 0 10px	0 0; }
 
+@media screen and (max-width: 1400px) {
+  nav ul {
+    left: 58%; } }
 @media screen and (max-width: 1200px) {
   h1 {
     font-size: 38px; }
