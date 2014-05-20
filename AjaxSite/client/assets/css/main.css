@@ -1,0 +1,27 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  position: relative;
+  -webkit-font-smoothing: none; }
+
+h1, h2, h3 {
+  margin: 8px 0 16px 0;
+  font-family: 'Open Sans', sans-serif; }
+
+h1 {
+  font-size: 46px;
+  font-weight: 700; }
+
+h2 {
+  font-size: 28px;
+  font-weight: 600; }
+
+h3 {
+  font-size: 18px;
+  font-weight: 600; }
+
+#main {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  position: relative; }
