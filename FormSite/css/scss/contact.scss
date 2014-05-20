@@ -68,8 +68,20 @@ top:57%;
 
 }
 
-.button.btncontact.two:hover{-webkit-transition: all 0.25s linear; background-color:#303336;color:white;}
-.button.btncontact.one:hover{-webkit-transition: all 0.25s linear; background-color:#2dd87d;color:white;}
+.button.btncontact.two:hover{	
+
+	@include transition(all, 0.25s, linear);
+	color:white;
+	background-color:#505656;
+}
+.button.btncontact.one:hover{
+
+	@include transition(all, 0.25s, linear);
+	color:white;
+	background-color:rgb(45,216,125);
+	
+}
+
 .linecontact{
 
 	position:absolute;

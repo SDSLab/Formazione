@@ -7,7 +7,7 @@ header{
 	
 	min-height:680px;
 	
-	background-image: url(http://aetherthemes.com/demo/form/images/hero-home.jpg);
+	
 	background-position: 50% 0px;
 
 }
@@ -47,7 +47,12 @@ a.button.btnHeader{
 
 }
 
-a.button.btnHeader:hover{-webkit-transition: opacity 0.25s linear; opacity:0.5;}
+a.button.btnHeader:hover{
+	@include transition(opacity, 0.25s, linear);
+	
+	opacity:0.5;
+
+}
 
 a.button.btnWork{
 	
@@ -60,7 +65,12 @@ a.button.btnWork{
 	color: #505656;
 
 }
-a.button.btnWork:hover{-webkit-transition: all 0.25s linear; background-color:#303336;color:white;}
+a.button.btnWork:hover{
+	@include transition(all, 0.25s, linear);
+	
+	background-color:#303336;
+	color:white;
+}
 
 #line{
 	position:absolute;
@@ -90,7 +100,8 @@ nav  {
 	z-index:200;
 	padding-top: 0;
   
-	-webkit-animation:fadeIn 0.5s linear forwards;
+	@include animation(fadeIn, 0.5s, linear, forwards);
+	
   
 }
 
@@ -103,8 +114,8 @@ nav  {
 	color:white;
 	height:100%;
 
-
-	-webkit-transition:right 0.35s ease-in-out;
+	@include transition(right, 0.35s, ease-in-out);
+	
 }
 
 body.openMenu .navOut{
@@ -129,7 +140,8 @@ body.openMenu .navOut ul{
 
 .fixedmenu.fadeOutAni{
 	top:0%;
-	-webkit-animation:fadeOut 0.5s linear forwards;
+	@include animation(fadeOut, 0.5s, linear, forwards);
+	
 	
 }
 
@@ -141,11 +153,11 @@ body.openMenu .navOut ul{
 
 	position: fixed;
 	background-color:rgba(45,180,216,.95);
-
+	top:-65px;
 	font-size:12px;
 	max-height: 65px; 
+	@include animation(slideDown, 0.3s, linear, forwards);
 	
-	-webkit-animation:slideDown 0.3s linear forwards;
 
 
 	

@@ -1,4 +1,4 @@
-<html> 
+<!DOCTYPE html>	
 
 <head>
 
@@ -15,8 +15,15 @@
   <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
   
 <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-  <script src="http://masonry.desandro.com/masonry.pkgd.min.js"></script>
+  
 
-  
-  
+  <!--compatibilita' ie-->
+<!--[if IE]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+ <link href="css/css/html5reset-1.6.1.css" rel="stylesheet" type="text/css">
+
+<![endif]-->
+   <!--[if lt IE 9]>
+<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
  </head>

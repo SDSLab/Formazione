@@ -19,8 +19,7 @@ ul.imgClients li{
 	
 	margin:50px 0 50px 11%;
 	display:inline-block;
-	-webkit-animation:animationEnter 1s linear forwards;
-
-
+	@include animation(animationEnter, 1s, linear, forwards);
+	
 
 }

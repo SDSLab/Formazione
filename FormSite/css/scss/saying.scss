@@ -70,8 +70,8 @@
 	padding:0;
 	font-size:24px;
 	left:0;
-
-	-webkit-transition:all 1s linear;
+	@include transition(all, 1s, linear);
+	
 	
 }
 
@@ -90,7 +90,8 @@
 
 .row.slider ul li:first-child{
 	
-	-webkit-animation:animationEnter 1.2s linear forwards;
+	@include animation(animationEnter, 1.2s, linear, forwards);
+	
 
 }
 

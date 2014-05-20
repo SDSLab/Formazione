@@ -4,7 +4,8 @@ body {
   position: relative;
   font: normal 16px "Lato",arial,sans-serif;
   overflow-x: hidden;
-  font-weight: 300; }
+  font-weight: 300;
+  -webkit-font-smoothing: none; }
 
 h1, h2, h3 {
   margin: 8px 0 16px 0;
@@ -44,7 +45,6 @@ body.openMenu #overlay {
 header {
   position: relative;
   min-height: 680px;
-  background-image: url(http://aetherthemes.com/demo/form/images/hero-home.jpg);
   background-position: 50% 0px; }
 
 #containerHeader {
@@ -71,6 +71,10 @@ a.button.btnHeader {
 
 a.button.btnHeader:hover {
   -webkit-transition: opacity 0.25s linear;
+  -moz-transition: opacity 0.25s linear;
+  -ms-transition: opacity 0.25s linear;
+  -o-transition: opacity 0.25s linear;
+  transition: opacity 0.25s linear;
   opacity: 0.5; }
 
 a.button.btnWork {
@@ -82,6 +86,10 @@ a.button.btnWork {
 
 a.button.btnWork:hover {
   -webkit-transition: all 0.25s linear;
+  -moz-transition: all 0.25s linear;
+  -ms-transition: all 0.25s linear;
+  -o-transition: all 0.25s linear;
+  transition: all 0.25s linear;
   background-color: #303336;
   color: white; }
 
@@ -104,7 +112,11 @@ nav {
   color: white;
   z-index: 200;
   padding-top: 0;
-  -webkit-animation: fadeIn 0.5s linear forwards; }
+  -webkit-animation: fadeIn 0.5s linear forwards;
+  -moz-animation: fadeIn 0.5s linear forwards;
+  -ms-animation: fadeIn 0.5s linear forwards;
+  -o-animation: fadeIn 0.5s linear forwards;
+  animation: fadeIn 0.5s linear forwards; }
 
 .navOut {
   position: absolute;
@@ -114,7 +126,11 @@ nav {
   background-color: black;
   color: white;
   height: 100%;
-  -webkit-transition: right 0.35s ease-in-out; }
+  -webkit-transition: right 0.35s ease-in-out;
+  -moz-transition: right 0.35s ease-in-out;
+  -ms-transition: right 0.35s ease-in-out;
+  -o-transition: right 0.35s ease-in-out;
+  transition: right 0.35s ease-in-out; }
 
 body.openMenu .navOut {
   right: 0; }
@@ -132,14 +148,23 @@ body.openMenu .navOut ul {
 
 .fixedmenu.fadeOutAni {
   top: 0%;
-  -webkit-animation: fadeOut 0.5s linear forwards; }
+  -webkit-animation: fadeOut 0.5s linear forwards;
+  -moz-animation: fadeOut 0.5s linear forwards;
+  -ms-animation: fadeOut 0.5s linear forwards;
+  -o-animation: fadeOut 0.5s linear forwards;
+  animation: fadeOut 0.5s linear forwards; }
 
 .fixedmenu {
   position: fixed;
   background-color: rgba(45, 180, 216, 0.95);
+  top: -65px;
   font-size: 12px;
   max-height: 65px;
-  -webkit-animation: slideDown 0.3s linear forwards; }
+  -webkit-animation: slideDown 0.3s linear forwards;
+  -moz-animation: slideDown 0.3s linear forwards;
+  -ms-animation: slideDown 0.3s linear forwards;
+  -o-animation: slideDown 0.3s linear forwards;
+  animation: slideDown 0.3s linear forwards; }
 
 .barAni {
   position: absolute;
@@ -322,7 +347,11 @@ nav li.borderMenu {
   padding: 0;
   font-size: 24px;
   left: 0;
-  -webkit-transition: all 1s linear; }
+  -webkit-transition: all 1s linear;
+  -moz-transition: all 1s linear;
+  -ms-transition: all 1s linear;
+  -o-transition: all 1s linear;
+  transition: all 1s linear; }
 
 .row.slider ul li {
   position: absolute;
@@ -331,7 +360,11 @@ nav li.borderMenu {
   margin: 20px 0 0.7em; }
 
 .row.slider ul li:first-child {
-  -webkit-animation: animationEnter 1.2s linear forwards; }
+  -webkit-animation: animationEnter 1.2s linear forwards;
+  -moz-animation: animationEnter 1.2s linear forwards;
+  -ms-animation: animationEnter 1.2s linear forwards;
+  -o-animation: animationEnter 1.2s linear forwards;
+  animation: animationEnter 1.2s linear forwards; }
 
 .row.slider ul li blockquote {
   text-align: center;
@@ -411,6 +444,10 @@ nav li.borderMenu {
   text-align: center;
   color: white;
   -webkit-transition: bottom 0.5s linear;
+  -moz-transition: bottom 0.5s linear;
+  -ms-transition: bottom 0.5s linear;
+  -o-transition: bottom 0.5s linear;
+  transition: bottom 0.5s linear;
   z-index: 100; }
 
 .description p {
@@ -438,7 +475,11 @@ ul.imgClients {
 ul.imgClients li {
   margin: 50px 0 50px 11%;
   display: inline-block;
-  -webkit-animation: animationEnter 1s linear forwards; }
+  -webkit-animation: animationEnter 1s linear forwards;
+  -moz-animation: animationEnter 1s linear forwards;
+  -ms-animation: animationEnter 1s linear forwards;
+  -o-animation: animationEnter 1s linear forwards;
+  animation: animationEnter 1s linear forwards; }
 
 #contact {
   width: 100%;
@@ -483,13 +524,21 @@ ul.imgClients li {
 
 .button.btncontact.two:hover {
   -webkit-transition: all 0.25s linear;
-  background-color: #303336;
-  color: white; }
+  -moz-transition: all 0.25s linear;
+  -ms-transition: all 0.25s linear;
+  -o-transition: all 0.25s linear;
+  transition: all 0.25s linear;
+  color: white;
+  background-color: #505656; }
 
 .button.btncontact.one:hover {
   -webkit-transition: all 0.25s linear;
-  background-color: #2dd87d;
-  color: white; }
+  -moz-transition: all 0.25s linear;
+  -ms-transition: all 0.25s linear;
+  -o-transition: all 0.25s linear;
+  transition: all 0.25s linear;
+  color: white;
+  background-color: #2dd87d; }
 
 .linecontact {
   position: absolute;
@@ -505,45 +554,48 @@ ul.imgClients li {
   left: 52%;
   top: 71%; }
 
-footer {
+#footer {
   position: relative;
   background: -webkit-linear-gradient(left, #303336 0%, #303336 65%, #18191b 65%, #18191b 100%);
-  color: #f2f2f1; }
+  background: -moz-linear-gradient(left, #303336 0%, #303336 65%, #18191b 65%, #18191b 100%);
+  background: -ms-linear-gradient(left, #303336 0%, #303336 65%, #18191b 65%, #18191b 100%);
+  color: #f2f2f1;
+  width: 100%; }
 
-footer .container {
+#footer .container {
   box-sizing: border-box;
   padding: 50px 0px;
   width: 100%;
   display: inline-block; }
 
-footer .container .row {
+#footer .container .row {
   margin: 0 auto 0 auto; }
 
-footer ul {
+#footer ul {
   list-style: none;
   display: inline-block;
   margin: 0 auto 0 auto;
   padding: 0; }
 
-footer ul.contactUl {
+#footer ul.contactUl {
   width: 60%; }
 
-footer ul.contactSocial {
+#footer ul.contactSocial {
   position: relative;
   width: 300px;
-  margin: 0 0 0 165px; }
+  margin: 0 0 0 160px; }
 
-footer ul li {
+#footer ul li {
   color: #f2f2f1;
   margin: 0 0 0 5%;
   display: inline-block;
   opacity: .7;
   font-weight: 300; }
 
-footer ul li i {
+#footer ul li i {
   margin: 0 10px	0 0; }
 
-@media (max-width: 1200px) {
+@media screen and (max-width: 1200px) {
   h1 {
     font-size: 38px; }
 
@@ -633,8 +685,22 @@ footer ul li i {
     display: none; }
 
   .item {
-    width: 33.3333333%; } }
-@media (max-width: 770px) {
+    width: 33.3333333%; }
+
+  #footer ul.contactSocial {
+    margin: 0 0 0 50px; }
+
+  #footer .row {
+    font-size: 15px;
+    width: 100%; }
+
+  #footer ul.contactUl {
+    margin: 20px 20px 20px 20px;
+    width: 60%; }
+
+  #footer ul.contactUl li {
+    margin: 25px 0 0 15px; } }
+@media screen and (max-width: 770px) {
   h1 {
     font-size: 29px; }
 
@@ -705,18 +771,26 @@ footer ul li i {
     width: 100%;
     height: 280px; }
 
+  .row.sliderIcon {
+    margin: 5px 0 0 -15px; }
+
   a.button.btnWork {
     top: 92%;
     left: 40%; }
+
+  #clients {
+    height: auto; }
 
   #clients .row {
     text-align: center; }
 
   #clients ul li {
-    margin: 50px 0 50px 5%; }
+    margin: 5px 0 25px 0;
+    width: 100%; }
 
   #clients ul li:first-child {
-    margin: 50px 0 50px 1%; }
+    margin: 25px 0 20px 0;
+    width: 100%; }
 
   .rowGallery:last-child {
     display: none; }
@@ -725,13 +799,83 @@ footer ul li i {
     display: none; }
 
   .item {
-    width: 50%; } }
-@media (max-width: 400px) {
+    width: 50%; }
+
+  #footer {
+    background: -webkit-linear-gradient(top, #303336 0%, #303336 70%, #18191b 70%, #18191b 100%);
+    height: auto; }
+
+  #footer ul.contactSocial {
+    text-align: center;
+    margin: 100px 0 0 25%; }
+
+  #footer ul.contactUl {
+    text-align: center;
+    width: 90%; }
+
+  #footer ul.contactUl li {
+    margin: 25px 0 0 0;
+    width: 100%; } }
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 25px; }
+
+  h2 {
+    font-size: 15px; }
+
+  h3 {
+    font-size: 12px; }
+
+  #containerHeader {
+    height: 250px;
+    top: 140px;
+    width: 100%; }
+
+  a.button {
+    margin: 0 0  0 10px;
+    padding: 10px 15px;
+    font-size: 14px; }
+
+  a.button.btnHeader {
+    top: 40%;
+    left: 35%; }
+
+  #line {
+    display: none; }
+
+  #philosophy p {
+    font-size: 0.9em;
+    margin: 1em 0 1em -10px; }
+
+  #work {
+    height: 1300px; }
+
   .rowGallery .item:nth-last-child(1) img {
     display: none; }
 
+  .row {
+    width: 100%; }
+
+  .row.sliderIcon {
+    margin: 5px 0 0 -25px; }
+
+  .linecontact {
+    display: none; }
+
+  a.button.btnWork {
+    left: 36%; }
+
+  #philosophy .row {
+    width: 100%;
+    margin: 0 auto 0 auto;
+    padding: 60px 15px 50px 15px; }
+
   .item {
-    width: 100%; } }
+    width: 100%; }
+
+  #footer ul.contactSocial {
+    text-align: center;
+    margin: 100px 0 0 20%; } }
 @-webkit-keyframes slideDown {
   0% {
     top: -65px; }
@@ -761,6 +905,40 @@ footer ul li i {
     -webkit-transform: scale(1, 1);
     -webkit-filter: blur(0px); } }
 @-webkit-keyframes fadeButton {
+  0% {
+    background-color: transparent; }
+
+  100% {
+    background-color: #303336; } }
+@keyframes slideDown {
+  0% {
+    top: -65px; }
+
+  100% {
+    top: 0%; } }
+@keyframes fadeOut {
+  0% {
+    opacity: 1; }
+
+  100% {
+    opacity: 0; } }
+@keyframes fadeIn {
+  0% {
+    opacity: 0; }
+
+  100% {
+    opacity: 1; } }
+@keyframes animationEnter {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0, 0);
+    -webkit-filter: blur(5px); }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(1, 1);
+    -webkit-filter: blur(0px); } }
+@keyframes fadeButton {
   0% {
     background-color: transparent; }
 

@@ -1,4 +1,4 @@
-<header>
+<header style="background: url(http://aetherthemes.com/demo/form/images/hero-home.jpg);">
 
 	
 	<div id="containerHeader" class="firstFace">

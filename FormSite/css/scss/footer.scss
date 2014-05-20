@@ -1,21 +1,26 @@
-footer{
+#footer{
 	position:relative;
 	background: -webkit-linear-gradient(left,#303336 0%,#303336 65%,#18191b 65%,#18191b 100%);
+	background: -moz-linear-gradient(left,#303336 0%,#303336 65%,#18191b 65%,#18191b 100%);
+	background: -ms-linear-gradient(left,#303336 0%,#303336 65%,#18191b 65%,#18191b 100%);
 	color:#f2f2f1;
+	width:100%;
+	
 
 
 }
-footer .container{
+#footer .container{
 
 	box-sizing:border-box;
 	padding: 50px 0px;
 	width:100%;
+	
 	display:inline-block;
 
 
 }
 
-footer .container .row{
+#footer .container .row{
 
 
 	margin: 0 auto 0 auto;
@@ -23,7 +28,7 @@ footer .container .row{
 
 
 }
-footer ul{
+#footer ul{
 
 	
 	list-style:none;
@@ -35,23 +40,24 @@ footer ul{
 
 }
 
-footer ul.contactUl {
+#footer ul.contactUl {
 
 	width:60%;
 	
 
 }
-footer ul.contactSocial {
+#footer ul.contactSocial {
+
 	position:relative;
 	width:300px;
-	margin:0 0 0 165px;
+	margin:0 0 0 160px;
 	
 
 }
 
 
 
-footer ul li{
+#footer ul li{
 	color:#f2f2f1;
 	margin:0 0 0 5%;
 	display:inline-block;
@@ -60,7 +66,7 @@ footer ul li{
 
 }
 
-footer ul li i{
+#footer ul li i{
 
 	margin:0 10px	0 0;
 

@@ -21,8 +21,14 @@ $(document).ready(function(){
 		$(this).addClass("bgcircle");
 		
 		var index = $('.circle').index(this);
+		if(navigator.userAgent.indexOf("MSIE") > 7 ){
 		
-		$('ul.slideMe').attr('data-indexLi', index).css("left",index*(-100)+"%");
+		$('ul.slideMe').attr('data-indexLi', index).animate({"left":index*(-100)+"%"}, "slow" );
+		
+		
+		}else{
+		$('ul.slideMe').attr('data-indexLi', index).css("left",index*(-100)+"%");}
 	});
+	
 
 });

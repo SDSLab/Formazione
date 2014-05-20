@@ -72,7 +72,30 @@ var myGrid ={
 	},
 	
 	aniElement:function(){
+		
+		if(navigator.userAgent.indexOf("MSIE") > 7 ){
+		
+		
+		$('.item').hover(function(){
+		
+			$(this).find('.description').animate({"bottom":"0%"}, "slow" ).clearQueue();
+			
+		}, 
+		  function () {
+			$(this).find('.description').animate({"bottom":"-25%"}, "slow" ).clearQueue();
+			
+		  }
+		);
+		
+		
+		
+		
+		
+		}
 	
+	
+	
+		else{
 		$('.item').hover(function(){
 		
 			$(this).find('.description').addClass('aniDes');
@@ -82,7 +105,7 @@ var myGrid ={
 			$(this).find('.description').removeClass('aniDes');
 		  }
 		);
-	
+		}
 	},
 	
 	

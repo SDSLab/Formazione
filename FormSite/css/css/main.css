@@ -4,7 +4,8 @@ body {
   position: relative;
   font: normal 16px "Lato",arial,sans-serif;
   overflow-x: hidden;
-  font-weight: 300; }
+  font-weight: 300;
+  -webkit-font-smoothing: none; }
 
 h1, h2, h3 {
   margin: 8px 0 16px 0;

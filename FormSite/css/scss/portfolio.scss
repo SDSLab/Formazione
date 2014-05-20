@@ -35,8 +35,9 @@
 	height:25%;	
     background-color:#474747;  
     text-align:center;
-    color:white;  
-	-webkit-transition:bottom 0.5s linear;
+    color:white;
+	@include transition(bottom, 0.5s, linear);
+	
 	
 	z-index:100;
 	

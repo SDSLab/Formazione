@@ -32,3 +32,37 @@
 
   100% {
     background-color: #303336; } }
+@keyframes slideDown {
+  0% {
+    top: -65px; }
+
+  100% {
+    top: 0%; } }
+@keyframes fadeOut {
+  0% {
+    opacity: 1; }
+
+  100% {
+    opacity: 0; } }
+@keyframes fadeIn {
+  0% {
+    opacity: 0; }
+
+  100% {
+    opacity: 1; } }
+@keyframes animationEnter {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0, 0);
+    -webkit-filter: blur(5px); }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(1, 1);
+    -webkit-filter: blur(0px); } }
+@keyframes fadeButton {
+  0% {
+    background-color: transparent; }
+
+  100% {
+    background-color: #303336; } }

@@ -1,4 +1,4 @@
-@media (max-width: 1200px) {
+@media screen and (max-width: 1200px) {
   h1 {
     font-size: 38px; }
 
@@ -88,8 +88,22 @@
     display: none; }
 
   .item {
-    width: 33.3333333%; } }
-@media (max-width: 770px) {
+    width: 33.3333333%; }
+
+  #footer ul.contactSocial {
+    margin: 0 0 0 50px; }
+
+  #footer .row {
+    font-size: 15px;
+    width: 100%; }
+
+  #footer ul.contactUl {
+    margin: 20px 20px 20px 20px;
+    width: 60%; }
+
+  #footer ul.contactUl li {
+    margin: 25px 0 0 15px; } }
+@media screen and (max-width: 770px) {
   h1 {
     font-size: 29px; }
 
@@ -160,18 +174,26 @@
     width: 100%;
     height: 280px; }
 
+  .row.sliderIcon {
+    margin: 5px 0 0 -15px; }
+
   a.button.btnWork {
     top: 92%;
     left: 40%; }
+
+  #clients {
+    height: auto; }
 
   #clients .row {
     text-align: center; }
 
   #clients ul li {
-    margin: 50px 0 50px 5%; }
+    margin: 5px 0 25px 0;
+    width: 100%; }
 
   #clients ul li:first-child {
-    margin: 50px 0 50px 1%; }
+    margin: 25px 0 20px 0;
+    width: 100%; }
 
   .rowGallery:last-child {
     display: none; }
@@ -180,10 +202,80 @@
     display: none; }
 
   .item {
-    width: 50%; } }
-@media (max-width: 400px) {
+    width: 50%; }
+
+  #footer {
+    background: -webkit-linear-gradient(top, #303336 0%, #303336 70%, #18191b 70%, #18191b 100%);
+    height: auto; }
+
+  #footer ul.contactSocial {
+    text-align: center;
+    margin: 100px 0 0 25%; }
+
+  #footer ul.contactUl {
+    text-align: center;
+    width: 90%; }
+
+  #footer ul.contactUl li {
+    margin: 25px 0 0 0;
+    width: 100%; } }
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 25px; }
+
+  h2 {
+    font-size: 15px; }
+
+  h3 {
+    font-size: 12px; }
+
+  #containerHeader {
+    height: 250px;
+    top: 140px;
+    width: 100%; }
+
+  a.button {
+    margin: 0 0  0 10px;
+    padding: 10px 15px;
+    font-size: 14px; }
+
+  a.button.btnHeader {
+    top: 40%;
+    left: 35%; }
+
+  #line {
+    display: none; }
+
+  #philosophy p {
+    font-size: 0.9em;
+    margin: 1em 0 1em -10px; }
+
+  #work {
+    height: 1300px; }
+
   .rowGallery .item:nth-last-child(1) img {
     display: none; }
 
+  .row {
+    width: 100%; }
+
+  .row.sliderIcon {
+    margin: 5px 0 0 -25px; }
+
+  .linecontact {
+    display: none; }
+
+  a.button.btnWork {
+    left: 36%; }
+
+  #philosophy .row {
+    width: 100%;
+    margin: 0 auto 0 auto;
+    padding: 60px 15px 50px 15px; }
+
   .item {
-    width: 100%; } }
+    width: 100%; }
+
+  #footer ul.contactSocial {
+    text-align: center;
+    margin: 100px 0 0 20%; } }

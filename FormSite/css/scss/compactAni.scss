@@ -1,0 +1,20 @@
+@mixin animation($type, $time, $ease, $forward) {
+ 
+	-webkit-animation: $type $time $ease $forward;
+	-moz-animation: $type $time $ease $forward;
+	-ms-animation: $type $time $ease $forward;
+	-o-animation: $type $time $ease $forward;
+	animation: $type $time $ease $forward;
+  
+}
+
+@mixin transition($type, $time, $ease) {
+  
+	-webkit-transition: $type $time $ease;
+	-moz-transition: $type $time $ease;
+	-ms-transition: $type $time $ease;
+	-o-transition: $type $time $ease;
+	transition: $type $time $ease;
+
+}
+
