@@ -7,48 +7,75 @@ header{
 	font: normal 16px "Lato",arial,sans-serif;
 	
 	font-weight:400;
+	overflow:hidden;
 	
 }
 header img{
 
 	width:100%;
-
-
+	
 }
 nav{
 
-	position:relative;
-	width:820px;
+	position:fixed;
+	width:100%;
 	height:70px;
 	margin:0 auto 0 auto;
 	padding:0;
+	background:white;
+	z-index:100;
+	
+	-webkit-transition:all 0.35s linear;
+
 
 }
 
+nav.scrolled{
+
+	background:black;
+}
+
+nav.scrolled ul li a{
+	
+	color:white;
+	
+	
+}
 nav ul{
 
-	position:relative;
-	width:100%;
+	position:absolute;
+	width:810px;
 	height:100%;
 	margin:0;
 	padding:0;
+	left:25%;
 
 }
 
 nav ul li{
 
 	position:relative;
-	height:100%;
-	margin:0 0 0 150px;
-	padding:20px 0 0 0;
+	
+	margin:-20px 0 0 80px;
+	
 	display:inline-block;
-	box-sizing:border-box;
+	
 	list-style:none;
+}
+
+nav ul li img{
+
+	position:relative;
+	width:100px;
+	top:20px;
+	
+	
+	
 }
 
 nav ul li:first-child{
 
-	margin:0 0 0 50px;
+	margin:0 0 0 60px;
 
 
 }
@@ -57,5 +84,5 @@ nav ul li a {
 
 	text-decoration:none;
 	color:black;
-
+	-webkit-transition:all 0.35s linear;
 }
