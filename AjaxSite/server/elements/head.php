@@ -3,7 +3,7 @@
 <head>
 
   <!-- CSS -->
-  <link href="client\assets\css\style.css" rel="stylesheet" type="text/css">
+  <link href="client/assets/css/style.css" rel="stylesheet" type="text/css">
    
    
   <!-- FONT -->
@@ -14,13 +14,14 @@
 
   <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 
-  <!--compatibilita' ie-->
-<!--[if IE]>
-<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
- 
+	<!--compatibilita' ie-->
+	<!--[if IE]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	 
 
-<![endif]-->
-<!--[if lt IE 9]>
-<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
-<![endif]-->
+	<![endif]-->
+	<!--[if lt IE 9]>
+	<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+	<![endif]-->
+	
  </head>

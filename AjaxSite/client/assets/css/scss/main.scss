@@ -5,34 +5,37 @@ body {
 	position:relative;
 
 	-webkit-font-smoothing: none;
-	
+	font-family: 'Lato', sans-serif;
+	font-weight: 300; 
 
 }
 
 h1,h2,h3{
 	
-	margin:8px 0 16px 0;
-	font-family: 'Open Sans', sans-serif;
-	
-	
+	margin:20px 0 16px 0;
 	
 }
 h1{
 
 	font-size:46px;
-	font-weight: 700; 
+	font-weight: 400; 
 }
 h2{
 
 	font-size:28px;
-	font-weight: 600; 
+	font-weight: 400; 
 }
 h3{
 	
 	font-size:18px;
-	font-weight: 600; 
+	font-weight: 400; 
 }
 
+p{
+
+	line-height:1.7em;
+
+}
 
 #main {
 

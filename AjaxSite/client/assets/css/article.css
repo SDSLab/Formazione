@@ -1,0 +1,21 @@
+article {
+  position: relative;
+  text-align: center;
+  width: 100%; }
+
+article header {
+  position: relative;
+  text-align: center;
+  width: 100%; }
+
+article p {
+  text-align: left; }
+
+article footer {
+  position: relative;
+  width: 100%; }
+
+article img {
+  position: relative;
+  width: 400px;
+  height: 400px; }

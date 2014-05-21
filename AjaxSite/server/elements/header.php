@@ -3,12 +3,12 @@
 	<nav>
 	<ul>
 		
-		<li><a href="#/home.php">HOME</a>
-		</li><li><a href="#/about.php">ABOUT</a>
-		</li><li><a href="#/portfolio.php">PORTFOLIO</a>
-		</li><li><a href="#/contact.php">CONTACT</a>
+		<li><a href="#/home">HOME</a>
+		</li><li><a href="#/about">ABOUT</a>
+		</li><li><a href="#/portfolio">PORTFOLIO</a>
+		</li><li><a href="#/contact">CONTACT</a>
 		
 	</ul>
 </nav>
-	<img src="client\assets\img\zen.png">
+	<img src="client/assets/img/zen.jpg">
 </header>
